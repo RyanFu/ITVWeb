@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="keywords" content="itv9,itv9视频,itv9影视,大片,最新电影,最新大片,免费电影,高清电影,更新最快的电影,在线视频,在线电影,伦理片,在线高清电影">
+    <meta name="description" content="ITV9--更新最快、最全、免费的电影导航平台。">
+    <title>ITV9电影频道-最新最全更新最快的电影网站-在线观看</title>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="http://www.see-source.com/bootstrap/js/jquery.js"></script>
+    <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../bootstrap/js/jquery-md5.js"></script>
+    <style type="text/css">
+        .re {
+            word-wrap: normal;
+            word-break: normal;
+            white-space: normal;
+            font-size: 14px;
+        }
+
+        .div-left {
+            float: left;
+            margin-left: 60px;
+            height: 30px;
+            padding-top: 5px;
+        }
+        .sub {
+            padding-top: 0px;
+            margin-left: 115px;
+        }
+    </style>
+</head>
+<body>
+<form action="../manageAction_login.htm" method="post" onsubmit="return md5();">
+    <div style="width: 400px;margin: 0 auto;top:130px;position: relative">
+        <pre style="height: 240px">
+            <label style="text-align: center;cursor:default;font-weight: bolder">管理员登录</label>
+            <div class="re">
+                <div class="div-left">用户名</div>
+                <div style="float: left;margin-left: 15px">
+                    <input type="text" id="name" name="name" placeholder="username" style="width: 170px;"
+                           autocomplete="off">
+                </div>
+            </div>
+            <div class="re">
+                <div class="div-left">密码</div>
+                <div style="float: left;margin-left:28px">
+                    <input type="password" id="pwd" name="pwd" placeholder="password" style="width: 170px">
+                </div>
+            </div>
+            <div class="re">
+                <div class="div-left sub">
+                    <button class="btn" type="submit">登录</button>
+                </div>
+                <div style="float: left;margin-left:75px">
+                    <button class="btn" type="reset">取消</button>
+                </div>
+            </div>
+        </pre>
+    </div>
+</form>
+</body>
+<script type="text/javascript">
+    function md5() {
+        $("#pwd").css("border-color","");
+        $("#name").css("border-color","");
+        var name = $("#name").val();
+        var pwd = $("#pwd").val();
+        if (name == "") {
+            $("#name").css("border-color","red");
+            return false;
+        }
+        if(pwd==""){
+            $("#pwd").css("border-color","red");
+            return false;
+        }
+        var p = jQuery.md5(pwd);
+        var p_=jQuery.md5(name+p);
+        $("#pwd").val(p_);
+        return true;
+    }
+</script>
+</html>

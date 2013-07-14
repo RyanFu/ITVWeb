@@ -1,0 +1,363 @@
+.top{
+    background: url("http://p6.qhimg.com/t01d9444a65720b1dc3.png") repeat-x scroll 0 0 #000000;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    font-family: Arial;
+    height: 36px;
+    margin-bottom: 20px;
+    min-width: 960px;
+    position: relative;
+    width: 100%;
+    z-index:190;
+}
+.top .top_center{
+    height: 36px;
+    margin: 0 auto;
+    position: relative;
+    width: 950px;
+}
+.top .top_title{
+    float: left;
+    margin: 8px 10px 0 0;
+}
+.top_title .t_p1 {
+    position: relative;
+    top: 0px;
+    font-size: 20px;
+    color: #389F0C;
+    letter-spacing: 0.6mm;
+    padding: 0px;
+    margin: 0px;
+    line-height: 23px;
+    font-family: Georgia;
+}
+.top_title .t_s {
+    color: #808080;
+    font-family: FZShuTi;
+    font-size: 23px;
+}
+.top .top_bar{
+    float: left;
+}
+.top .top_bar li{
+    float: left;
+}
+.top .top_bar li a{
+    background: url("http://p6.qhimg.com/t01d9444a65720b1dc3.png") repeat-x scroll 0 0 #000000;
+    border-left: 1px solid #626262;
+    display: inline-block;
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 12px;
+    color: #E0E0E0;
+}
+.top .top_bar li a:hover{
+    background-position: 0 -37px;
+    text-decoration: none;
+}
+.top_search{
+    float: left;
+    font-size: 0;
+    line-height: 22px;
+    height: 22px;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    width: 313px;
+}
+.top_search .search_text{
+    background: none repeat scroll 0 0 #F4F4F4;
+    border: 0 none;
+    color: #AEAEAE;
+    float: left;
+    font-size: 12px;
+    height: 17px;
+    line-height: 18px;
+    padding: 2px 5px;
+    width: 120px;
+}
+.search_submit{
+    background: url("http://p7.qhimg.com/t01fb1ba83fb6eb2e0f.png") no-repeat scroll right top transparent;
+    border: 0 none;
+    cursor: pointer;
+    float: left;
+    font-size: 0;
+    height: 22px;
+    overflow: hidden;
+    text-align: center;
+    text-indent: -99em;
+    width: 29px;
+}
+.info{
+    margin: 0 auto;
+    width: 980px;
+}
+.info .main {
+    float: left;
+    width: 710px;
+}
+.overview {
+    border-bottom: 0 none;
+    padding-top: 0;
+}
+.overview .left_img {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    height: 307px;
+    margin-right: 30px;
+    width: 230px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.overview .left_img img {
+    display: block;
+    width: 100%;
+}
+.overview .right_info {
+    float: left;
+    width: 450px;
+}
+.overview .right_info .meta {
+    border-bottom: 1px dotted #E1E0E0;
+    line-height: 1.83;
+    padding: 0 75px 13px 0;
+    position: relative;
+    z-index: 1;
+}
+.overview .right_info .title {
+    font: 30px/1.5 "Microsoft Yahei","Simhei";
+    padding: 2px 0 10px;
+}
+.director, .actors {
+    position: relative;
+}
+.overview .right_info dl {
+    color: #999999;
+    margin: 3px 0;
+    overflow: hidden;
+}
+.overview .right_info dt {
+    float: left;
+}
+.overview .right_info dd {
+    overflow: hidden;
+}
+.overview .right_info dl a {
+    margin-right: 10px;
+}
+.overview .right_info .text {
+    padding: 3px 0;
+}
+.overview .right_info .text dl {
+    padding-right: 15px;
+}
+.overview .right_info dl {
+    color: #999999;
+    margin: 3px 0;
+    overflow: hidden;
+}
+.overview .right_info .text dl, .overview .right_info .text dt, .overview .right_info .text dd {
+    display: inline;
+    float: none;
+}
+.overview .aggregate-rating {
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 10px;
+}
+.value span {
+    color: #FF7722;
+    font-size: 20px;
+}
+.overview .aggregate-rating .rating-count {
+    color: #999999;
+    margin: -5px 0;
+    text-align: center;
+    white-space: nowrap;
+}
+.overview .right_info .evaluate {
+    margin-top: 13px;
+    position: relative;
+    z-index: 3;
+}
+.overview .right_info .evaluate .rating {
+    line-height: 26px;
+}
+.overview .right_info .play {
+    padding-top: 20px;
+}
+.overview .right_info .play_btn {
+    background: url("http://p6.qhimg.com/t0143fafcd6d7a0675b.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    float: left;
+    height: 40px;
+    margin-right: 10px;
+    padding-right: 0;
+    width: 131px;
+}
+.play_btn2{
+    -moz-box-orient: vertical;
+    display: inline-block;
+    float: left;
+    height: 30px;
+    width: 131px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #389F0C;
+    border-radius: 2px 2px 2px 2px;
+    color: #389F0C;
+    display: inline-block;
+    font: 12px/24px '宋体',arial;
+    margin: 0 3px;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.plays{
+    padding-top: 30px;
+}
+.plays .providers {
+    float: left;
+    margin: 10px 0 0;
+    position: relative;
+    width: 308px;
+}
+.plays .providers li {
+    float: left;
+    height: 20px;
+    margin-right: 4px;
+    overflow: hidden;
+}
+.plays .providers li a {
+    background-image: url("http://p2.qhimg.com/t01081ff64bf56d0f27.png");
+    background-repeat: no-repeat;
+    float: left;
+    padding-left: 20px;
+}
+.go_leshi {
+    background-position: 0 -247px;
+}
+.go_tudou {
+    background-position: 0 -155px;
+}
+.go_qiyi {
+    background-position: 0 -93px;
+}
+.go_xunlei {
+    background-position: 0 -217px;
+}
+.go_huashu {
+    background-position: 0 -540px;
+}
+.go_pps {
+    background-position: 0 -481px;
+}
+.go_youku {
+    background-position: 0 0;
+}
+.go_m1905 {
+    background-position: 0 -332px;
+}
+.go_pptv {
+    background-position: 0 -62px;
+}
+.go_fengxing {
+    background-position: 0 -570px;
+}
+.plays .more {
+    float: left;
+    position: relative;
+}
+.plays .more .toggle {
+    background: url("http://p1.qhimg.com/t01f474fced06a6306c.png") no-repeat scroll right 2px transparent;
+    display: block;
+    padding-right: 16px;
+}
+.more .menu:before {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color transparent #FFFFFF;
+    border-image: none;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-style: none solid solid;
+    border-width: 0 6px 6px;
+    content: "";
+    display: block;
+    left: 50%;
+    margin-left: -6px;
+    position: absolute;
+    top: -5px;
+    width: 0;
+    z-index: 1;
+}
+.more .menu:after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color transparent #DDDDDD;
+    border-image: none;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-style: none solid solid;
+    border-width: 0 6px 6px;
+    content: "";
+    display: block;
+    left: 50%;
+    margin-left: -6px;
+    position: absolute;
+    top: -6px;
+    width: 0;
+}
+.more .menu {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px 3px 3px 3px;
+    display: none;
+    left: -30px;
+    position: absolute;
+    top: 25px;
+    width: 80px;
+}
+.more .menu ul {
+    padding: 5px 0;
+}
+.more .menu li {
+    line-height: 16px;
+    padding: 3px 0 3px 10px;
+}
+.plays .open .toggle{
+    background-position: right -23px;
+}
+.doc{
+    border-bottom: 0 none;
+    clear: both;
+}
+.doc .bi {
+    padding: 15px 0 0;
+}
+.doc .title_line {
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 9px;
+    overflow: visible;
+}
+.doc .title_line .inner {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #666666;
+    font-weight: bold;
+    padding-right: 8px;
+    position: relative;
+    top: 9px;
+}
+.doc .doc_info{
+    clear: both;
+    color: #666666;
+    line-height: 20px;
+    padding: 10px 0 15px;
+}

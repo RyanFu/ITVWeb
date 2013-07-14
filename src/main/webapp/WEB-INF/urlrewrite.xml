@@ -1,0 +1,14 @@
+<urlrewrite>
+    <rule>
+        <from>/itv_re/(\w+)/(\w+)\.html</from>
+        <to>%{context-path}/$1_$2.htm</to>
+    </rule>
+    <rule>
+        <from>/itv_fm/(\w+)/(\w+)/([0-9a-zA-Z]+)\.html</from>
+        <to type="redirect">%{context-path}/$1_$2.htm?id=$3</to>
+    </rule>
+    <rule>
+        <from>/itv_search/([\w.0-9]+)/([0-9a-zA-Z\u4e00-\u9fa5]+)\.html</from>
+        <to type="redirect">%{context-path}/searchAction_type.htm?$1=$2</to>
+    </rule>
+</urlrewrite>

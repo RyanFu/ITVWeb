@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+        "struts-2.3.dtd">
+<struts>
+    <constant name="struts.action.extension" value="htm"/>
+    <package name="itv" extends="struts-default">
+        <interceptors>
+            <interceptor name="myIntercept" class="myIntercepter"/>
+            <interceptor-stack name="myInterceptStack">
+                <interceptor-ref name="defaultStack"/>
+                <interceptor-ref name="myIntercept"/>
+            </interceptor-stack>
+        </interceptors>
+        <action name="indexAction_*" class="indexAction" method="{1}">
+            <result name="index">/index.jsp</result>
+        </action>
+        <action name="playAction_*" class="playAction" method="{1}">
+            <result name="play">/play.jsp</result>
+        </action>
+        <action name="searchAction_*" class="searchAction" method="{1}">
+            <result name="type">/type.jsp</result>
+            <result name="search">/search.jsp</result>
+            <result name="index_" type="redirect">indexAction_index.htm</result>
+        </action>
+        <action name="manageAction_*" class="manageAction" method="{1}">
+            <interceptor-ref name="myInterceptStack"></interceptor-ref>
+            <result name="login">/WEB-INF/manage/fillMovie.jsp</result>
+            <result name="reLogin">/login/login.html</result>
+        </action>
+    </package>
+</struts>

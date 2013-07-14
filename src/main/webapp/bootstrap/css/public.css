@@ -1,0 +1,64 @@
+body {
+    color: #444444;
+    font: 12px/1.5 arial, '宋体', georgia, verdana, helvetica, sans-serif;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+fieldset, img {
+    border: 0 none;
+}
+a {
+    color: #444444;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+    color: #389F0C;
+    text-decoration: none;
+}
+ol, ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+input {
+    vertical-align: middle;
+}
+ins, s, u, del {
+    text-decoration: none;
+}
+.btn:hover, .btn:focus{
+    color: #FFFFFF;
+    background-color: #389F0C;
+}
+/*--------------------------搜索提示---------------------------*/
+.seach-ts{
+    left: 381.5px;
+    position: absolute;
+    top: 59px;
+    width: 313px;
+    z-index: 100;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #707A86;
+}
+.seach-ts-db a:hover{
+    background: none repeat scroll 0 0 rgba(232,232,232,0.7);
+}
+.seach-ts-db a {
+    font-family: Tahoma;
+    height: 26px;
+    padding: 0 4px;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    line-height: 26px;
+    overflow: hidden;
+    text-decoration: none;
+    margin-left: 5px;
+}

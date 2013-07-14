@@ -1,0 +1,176 @@
+.search-info {
+    margin: 0 auto;
+    width: 980px;
+}
+
+.search-one {
+    border-bottom: 1px solid #FFFFFF;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.search-movie-info {
+    list-style: none outside none;
+}
+
+.search-movie-info li {
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+.search-movie-info .avatar {
+    display: inline;
+    float: left;
+    margin-right: 25px;
+}
+
+.gimginfo:after {
+    background: url("http://p5.qhimg.com/d/_hao360/video/bgimg/btn.png") no-repeat scroll 37px 58px rgba(0, 0, 0, 0.3);
+    content: "";
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.gimginfo:after, .gimginfo .playmask, .gimginfo .gico-play {
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    visibility: hidden;
+}
+
+.gimginfo {
+    color: #FFFFFF;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 128px;
+}
+
+.gimginfo:hover:after, .gimginfo:hover.playmask, .gimginfo:hover .gico-play {
+    visibility: visible;
+}
+
+.gimginfo img {
+    height: 170px;
+    width: 128px;
+}
+
+.gimginfo .mask {
+    background: none repeat scroll 0 0 #000000;
+    opacity: 0.6;
+}
+
+.gimginfo .mask, .gimginfo .info {
+    bottom: 0;
+    cursor: pointer;
+    height: 19px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.gimginfo .info ins {
+    float: right;
+    padding-right: 5px;
+}
+
+.search-movie-info .movie-data {
+    overflow: hidden;
+}
+
+.movie-data .deta-text {
+    height: 140px;
+    overflow: hidden;
+}
+
+.movie-data h3 {
+    font-weight: normal;
+    margin: -4px 0 7px;
+}
+
+.movie-data h3 a {
+    font-family: '微软雅黑', 宋 体;
+    font-size: 20px;
+}
+
+.movie-data h3 b {
+    color: #FF3000;
+    font-weight: normal;
+}
+
+.movie-data h3 .category {
+    color: #0A9403;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.movie-data .item {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.movie-data .item p {
+    float: left;
+    color: #999999;
+    height: 21px;
+    overflow: hidden;
+}
+
+.movie-data .item p strong {
+    color: #999999;
+    font-weight: normal;
+}
+
+.movie-data .item span {
+    color: #222222;
+    margin-right: 11px;
+    padding-right: 12px;
+}
+
+.movie-data .item .area span {
+    border-right: 1px solid #D7D7D7;
+}
+
+.movie-data .context {
+    color: #222222;
+    font-family: arial, '宋 体';
+    height: 44px;
+    line-height: 1.7;
+}
+
+.movie-data .context strong {
+    color: #999999;
+    font-weight: normal;
+}
+
+.movie-list {
+    margin: 0 auto;
+    width: 980px;
+}
+
+.movie-list .list-db {
+    margin-left: 25px;
+    overflow: hidden;
+}
+
+.list-db .db-ul li {
+    display: inline;
+    float: left;
+    height: 145px;
+    overflow: hidden;
+    text-align: center;
+    width: 132px;
+}
+
+.db-ul .gimginfo, .db-ul .gimginfo img, .db-ul .gimginfo, .db-ul .gimginfo img {
+    height: 99px;
+    width: 100%;
+}
+
+.db-ul .gimginfo:after {
+    background-position: 39px 22px;
+}

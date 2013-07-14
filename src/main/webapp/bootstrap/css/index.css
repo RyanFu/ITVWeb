@@ -1,0 +1,564 @@
+#bd {
+    margin: 0 auto;
+    width: 980px;
+}
+#focus {
+    background: url("http://p5.qhimg.com/t018e1c8ad93384fdf9.png") repeat-x scroll 0 0 #6D6D6D;
+    height: 385px;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: relative;
+}
+.carousel-inner > .item{
+    height: 385px;
+}
+.ft {
+    bottom: 10px;
+    height: 110px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 960px;
+    z-index: 1;
+}
+#focus .carousel-indicators li.active {
+    border: 3px solid #3EAF0E;
+    height: 54px;
+    width: 100px;
+}
+#focus .carousel-indicators li.actives {
+    border: 3px solid #3EAF0E;
+    height: 54px;
+    width: 100px;
+}
+.carousel-indicators {
+    left: 14px;
+    position: absolute;
+    top: 40px;
+}
+.carousel-indicators li {
+    border: 1px solid #868686;
+    cursor: pointer;
+    float: left;
+    height: 58px;
+    margin-right: 8px;
+    margin-left: 0px;
+    overflow: hidden;
+    width: 104px;
+    text-indent: 0px;
+    border-radius: 0px 0px 0px 0px;
+}
+.carousel {
+    margin-bottom: 0px;
+}
+#focus .ftbg {
+    background: none repeat scroll 0 0 #000000;
+    height: 110px;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 960px;
+    z-index: -1;
+}
+#focus .focus-title {
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    left: 0;
+    line-height: 40px;
+    padding: 0 14px 0 50px;
+    position: absolute;
+    top: 0;
+}
+#focus .focus-title a {
+    color: #FFFFFF;
+    display: none;
+}
+#focus .focus-title .title {
+    color: #64D734;
+    font-weight: bold;
+}
+
+#focus .focus-title .icon {
+    background: url("http://p3.qhimg.com/d/_hao360/v360/dongman/play_bt_06.png") no-repeat scroll 0 0 transparent;
+    height: 32px;
+    left: 14px;
+    position: absolute;
+    top: 4px;
+    width: 32px;
+}
+#top {
+    font-size: 12px;
+}
+#ctop {
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+    width: 980px;
+    z-index: 200;
+}
+#top_left1 {
+    display: inline;
+    float: left;
+    height: 50px;
+    margin-right: 156px;
+    width: 225px;
+}
+.trademark {
+    width: 225px;
+    height: 49px;
+}
+.trademark .t_p1 {
+    position: relative;
+    top: 0px;
+    font-size: 20px;
+    color: #389F0C;
+    letter-spacing: 0.6mm;
+    padding: 0px;
+    margin: 0px;
+    line-height: 23px;
+    font-family: Georgia;
+}
+
+.trademark .t_p2 {
+    font-family: FZShuTi;
+    font-size: 20px;
+    position: relative;
+    top: 0px;
+    color: #c0c0c0;
+    line-height: 23px;
+}
+.trademark .t_s {
+    color: #808080;
+    font-family: FZShuTi;
+    font-size: 23px;
+}
+#search {
+    display: inline;
+    float: left;
+    position: relative;
+    top: 6px;
+    width: 440px;
+    height: 50px;
+}
+input.span2 {
+    border-color: #3AA60D -moz-use-text-color #3AA60D #3AA60D;
+    border-width: 2px 0 2px 2px;
+    width: 300px;
+}
+button.btn {
+    border: 2px solid #329308;
+    color: #FFFFFF;
+    background: #3AA60D;
+    width: 65px;
+}
+#navbar {
+    background: url("http://p8.qhimg.com/t0126c52d5cf3bc8446.png") repeat-x scroll 0 0 transparent;
+    height: 41px;
+    margin: 0 auto 10px;
+    width: 980px;
+}
+#navbar-inner {
+    height: 41px;
+    position: relative;
+}
+
+#nav {
+    float: left;
+    font-size: 14px;
+    margin-left: 5px;
+    position: relative;
+}
+.nav-item {
+    background: url("http://p5.qhimg.com/t0143379f6abc10d089.png") no-repeat scroll right 10px transparent;
+    float: left;
+    margin-left: -2px;
+}
+#navbar-inner a {
+    color: #FFFFFF;
+    float: left;
+    height: 36px;
+    line-height: 32px;
+    margin-top: 4px;
+    padding-left: 15px;
+    position: relative;
+}
+#navbar-inner a:hover {
+    color: #FFFFFF;
+    background: url("http://p9.qhimg.com/t01f80650bb705a0289.png") no-repeat scroll left center transparent;
+}
+#navbar-inner a .bg-right {
+    display: inline-block;
+    height: 36px;
+    padding-right: 15px;
+    vertical-align: 1px;
+}
+#navbar-inner a .bg-right {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 32px;
+}
+#navbar-inner a.on, #navbar-inner a.on:hover {
+    background: url("http://p4.qhimg.com/t01e5b3acee21345657.png") no-repeat scroll left center transparent;
+    color: #389F0C;
+    font-weight: bold;
+    height: 37px;
+    margin-top: 4px;
+}
+#navbar-inner a.on .bg-right, #navbar-inner a.on:hover .bg-right {
+    background: url("http://p3.qhimg.com/t0136f20b4bd499d989.png") no-repeat scroll right center transparent;
+    color: #389F0C;
+    height: 37px;
+}
+#navbar-inner a:hover .bg-right {
+    background: url(http://p7.qhimg.com/t015176b0007589d67c.png) no-repeat scroll right center transparent;
+    color: #FFFFFF;
+}
+#navbar-inner a .bg-right {
+    display: inline-block;
+    height: 36px;
+    padding-right: 15px;
+    vertical-align: 1px;
+}
+#navbar-inner a .bg-right {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 32px;
+}
+#subnav {
+    float: right;
+    line-height: 40px;
+    margin-right: 3px;
+}
+#navbar .navbar-bg-left {
+    left: 0;
+}
+#navbar .navbar-bg-left, #navbar .navbar-bg-right {
+    background: url("http://p1.qhimg.com/t015b2f1165f30003ea.png") repeat scroll 0 0 transparent;
+    height: 41px;
+    position: absolute;
+    top: 0;
+    width: 3px;
+}
+#navbar .navbar-bg-right {
+    background: url("http://p0.qhimg.com/t01420e3e7cb1eb428a.png") repeat scroll 0 0 #3BA70D;
+    right: 0;
+}
+#type_nav {
+    background: #ffe3f3;
+    height: 100px;
+}
+.film_type {
+    height: 102px;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+    width: 980px;
+}
+.film_type_title {
+    background: url("http://p5.qhimg.com/t019a7ef3788fd16075.png") no-repeat scroll 0 0 transparent;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    background-position: 0 -416px;
+}
+.film_type_title_font {
+    color: #389F0C;
+    font: 20px/2 '微软雅黑';
+}
+.film_type_info {
+    background: none repeat scroll 0 0 #FAFAFA;
+    padding: 10px 0 10px 30px;
+    height: 83px;
+}
+.film_type_info_w{
+    overflow: hidden;
+}
+.dl_type {
+    width: 170px;
+    height: 82px;
+    float: left;
+    overflow: hidden;
+}
+.film_type_info dt {
+    color: #999999;
+    line-height: 16px;
+    margin-bottom: 5px;
+}
+
+.film_type_info dd {
+    float: left;
+    line-height: 22px;
+    padding-right: 12px;
+}
+
+.dl_arer {
+    float: left;
+    height: 82px;
+    overflow: hidden;
+    width: 135px;;
+}
+
+.years {
+    float: left;
+    height: 82px;
+    overflow: hidden;
+    width: 108px;;
+}
+
+.film_type_info .star {
+    float: left;
+    height: 82px;
+    overflow: hidden;
+    width: 210px;;
+}
+
+.film_type_info .ersys {
+    float: left;
+    height: 82px;
+    overflow: hidden;
+    width: 195px;;
+}
+
+.hr_line {
+    clear: both;
+    width: 980px;
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+    border-top: 2px solid #389F0C;
+}
+
+/*-------------------栏目公用部分start-----------------------*/
+#bd .column {
+    clear: both;
+    position: relative;
+    overflow: hidden;
+}
+
+.cont_box_h2 {
+    color: #389F0C;
+    font: 20px/2 '微软雅黑';
+}
+
+/*--------------------栏目公用部分end-------------------------*/
+
+/*------------------------热播 start----------------------------------*/
+.hot_column {
+    top: 10px;
+}
+
+.figure-list {
+    width: 720px;
+}
+
+.figure-list li {
+    float: left;
+    margin: 0 15px 10px 0;
+    width: 165px;
+}
+
+.le-figure .pic {
+    height: 96px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.le-playico:after {
+    background: url("http://p5.qhimg.com/d/_hao360/video/bgimg/btn.png") no-repeat scroll center center rgba(0, 0, 0, 0.3);
+    content: "";
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.le-playico:after, .le-playico .bgmask, .le-playico .bgplay {
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    visibility: hidden;
+}
+
+.le-playico:hover:after, .le-playico:hover .bgmask, .le-playico:hover .bgplay {
+    visibility: visible;
+}
+
+.le-figure .pic a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.mod-hint .hintbg {
+    background: none repeat scroll 0 0 #000000;
+    bottom: 0;
+    height: 22px;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+}
+
+.mod-hint .center {
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.mod-hint .center, .mod-hint .right, .mod-hint .left {
+    bottom: 0;
+    color: #FFFFFF;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.le-figure .cont {
+    height: 39px;
+    overflow: hidden;
+}
+
+.le-figure .cont {
+    color: #888888;
+    text-align: center;
+}
+
+.le-figure .cont h4 {
+    font-size: 14px;
+    height: 21px;
+    overflow: hidden;
+}
+
+.v-tomato-tit-yellow {
+    background-position: right -18px;
+}
+.hot_column_left{
+    float: left;
+}
+.hot_column_right{
+    float: right;
+    width: 230px;
+    position: relative;
+}
+.hot_column_right_title{
+    height: 18px;
+    margin-bottom: 10px;
+    padding: 11px 0;
+    position: relative;
+}
+.hot_column_right_ol li{
+    clear: both;
+    float: left;
+    line-height: 14px;
+    margin-bottom: 14px;
+    padding-left: 27px;
+    position: relative;
+    width: 203px;
+}
+.hot_column_right_ol .index{
+    background: none repeat scroll 0 0 #FF6D00;
+    color: #FFFFFF;
+    height: 14px;
+    left: 0;
+    line-height: 14px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 17px;
+}
+.hot_ol_li_tail .index {
+    background: none repeat scroll 0 0 #AAAAAA;
+}
+.hot_column_right_ol .star{
+    color: #999999;
+    height: 14px;
+    line-height: 14px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/**---------------------------热播end----首播start-----------------------------*/
+.net_column {
+    top: 20px;
+}
+
+/*-----------------------广告-------------------------------*/
+.ad_column {
+    top: 20px;
+}
+
+.ad1_column {
+    width: 705px;
+    height: 100px;
+    background: #808080;
+    overflow: hidden;
+    float: left;
+}
+
+.ad2_column {
+    width: 230px;
+    height: 100px;
+    overflow: hidden;
+    background: #808080;
+    float: right;
+}
+.ad_top{
+    background: none repeat scroll 0 0 #808080;
+    display: inline;
+    float: right;
+    height: 90px;
+    margin: 0 10px 0 0;
+    text-align: center;
+    width: 220px;
+}
+/*----------------预告--------------------*/
+.pre_column {
+    top: 20px;
+}
+.pre_ul {
+    width: 980px;
+}
+
+.pre_ul li {
+    float: left;
+    margin: 0 0 10px 0;
+    width: 165px;
+}
+.pre_li_3{
+    padding: 0 0 0 38px;
+}
+/*-----------------轻松剧场---------------------*/
+.easy_column{
+    top: 20px;
+}
+.easy_column_left{
+    width: 725px;
+    overflow: hidden;
+    float: left;
+}
+.easy_column_left .figure-list{
+    width: 725px;
+}
+.easy_column_left .figure-list li{
+    margin: 0 20px 15px 0;
+    width: 125px;
+}
+.easy_column_left .le-figure .pic {
+    height: 167px;
+}
+.easy_column_left .le-figure .pic img {
+    display: block;
+    width: 100%;
+}
+/*--------------激情剧场------*/
+.ent_column{
+    top: 20px;
+}

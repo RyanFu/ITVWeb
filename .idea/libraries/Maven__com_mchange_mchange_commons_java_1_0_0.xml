@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Maven: com.mchange:mchange-commons-java:1.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/sae-local-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
