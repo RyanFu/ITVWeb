@@ -1,5 +1,6 @@
 package com.itv.action;
 
+import com.itv.pojo.MovieBean;
 import com.itv.service.ManageService;
 import com.itv.util.CheckUtil;
 import com.itv.util.Crypt;
@@ -7,6 +8,7 @@ import org.apache.log4j.Logger;
 import org.apache.struts2.ServletActionContext;
 import javax.servlet.http.Cookie;
 import java.util.Date;
+import java.util.List;
 
 /**
  * User: xiajun
@@ -18,6 +20,8 @@ public class ManageAction {
     private String name;
     private String pwd;
     private ManageService manageService;
+    private MovieBean mb;
+    private List<MovieBean> list;
 
     /**
      * 管理员登录
@@ -42,6 +46,19 @@ public class ManageAction {
         return "reLogin";
     }
 
+    /**
+     * 查询残缺视频
+     * @return
+     */
+    public String findFillMovie(){
+        try {
+            this.list=this.manageService.findFillMovie(this.mb);
+            System.out.println(list.size());
+        } catch (Exception e) {
+            log.error("",e);
+        }
+        return "";
+    }
     public void setName(String name) {
         this.name = name;
     }
@@ -52,5 +69,13 @@ public class ManageAction {
 
     public void setManageService(ManageService manageService) {
         this.manageService = manageService;
+    }
+
+    public void setMb(MovieBean mb) {
+        this.mb = mb;
+    }
+
+    public void setList(List<MovieBean> list) {
+        this.list = list;
     }
 }

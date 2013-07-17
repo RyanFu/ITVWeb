@@ -48,7 +48,8 @@
         </div>
         <div id="search">
             <div class="input-append">
-                <form id="searchForm" action="searchAction_search.htm" method="get">
+                <form id="searchForm" action="searchAction_search.htm" method="get" target="_blank"
+                      onsubmit="return checkSeach();">
                     <input class="span2" name="name" id="search-text" type="text" autocomplete="off">
                     <button class="btn" type="submit">搜索</button>
                 </form>>
@@ -637,5 +638,13 @@
     $("#fol li").bind("mouseout", function (event) {
         $(this).removeClass("actives");
     });
+    function checkSeach(){
+        var svalue=$("#search-text").val();
+        var reg="/^[\\s]*$/";
+        if(reg.test(svalue)){
+            return false;
+        }
+        return true;
+    }
 </script>
 </html>

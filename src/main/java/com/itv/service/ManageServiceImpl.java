@@ -1,9 +1,12 @@
 package com.itv.service;
 
 import com.itv.dao.IBaseDao;
+import com.itv.pojo.MovieBean;
 import com.itv.util.Crypt;
 import com.itv.util.MemcacheUtil;
 import com.sina.sae.memcached.SaeMemcache;
+
+import java.util.List;
 
 /**
  * User: xiajun
@@ -37,6 +40,10 @@ public class ManageServiceImpl implements ManageService{
             return true;
         }
         return false;
+    }
+
+    public List<MovieBean> findFillMovie(MovieBean mb) throws Exception {
+        return this.baseDao.find("com.itv.manage.findFillMovie",mb);
     }
 
     public void setBaseDao(IBaseDao baseDao) {

@@ -1,4 +1,5 @@
 import com.itv.action.IndexAction;
+import com.itv.action.ManageAction;
 import com.itv.dao.IBaseDao;
 import com.itv.pojo.MovieBean;
 import com.itv.pojo.MovieFocusMap;
@@ -26,6 +27,8 @@ public class WebTest {
     IndexAction indexAction;
     @Resource
     PlayService playService;
+    @Resource
+    ManageAction manageAction;
     @Test
     public void tdao() {
         try {
@@ -40,9 +43,9 @@ public class WebTest {
     public void taction() {
         try {
             MovieBean mb=new MovieBean();
-            mb.setArea("香港");
-           // List list=this.playService.type(mb);
-            //System.out.println(list.size()+"===================");
+            mb.setName("1");
+            manageAction.setMb(mb);
+            manageAction.findFillMovie();
         } catch (Exception e) {
             e.printStackTrace();
         }

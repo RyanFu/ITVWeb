@@ -18,7 +18,7 @@
     <file path="/struts.xml" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373794437140" ignored="false" />
     <file path="/pom.xml" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373548854967" ignored="false" />
     <file path="/urlrewrite.xml" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373125104079" ignored="false" />
-    <file path="/index.jsp" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373737255324" ignored="false" />
+    <file path="/index.jsp" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373983773102" ignored="false" />
     <file path="/inde.jsp" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1372339448438" ignored="false" />
     <file path="/Dummy.txt" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373192011259" ignored="false" />
     <file path="E:/github_source/ITV/pom.xml" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1372487397476" ignored="false" />
@@ -48,7 +48,7 @@
     <file path="/applicationContext.xml" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373792741834" ignored="false" />
     <file path="/mybatis-config.xml" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373795158364" ignored="false" />
     <file path="/MovieBean.xml" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373720957634" ignored="false" />
-    <file path="/WebTest.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373192085223" ignored="false" />
+    <file path="/WebTest.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373986298462" ignored="false" />
     <file path="/IndexServiceImpl.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373030282976" ignored="false" />
     <file path="/IndexService.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1372583044665" ignored="false" />
     <file path="/PlayAction.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1372509336976" ignored="false" />
@@ -56,7 +56,7 @@
     <file path="/PlayService.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373722532203" ignored="false" />
     <file path="/play.jsp" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373693056150" ignored="false" />
     <file path="/Supplie.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1372854871438" ignored="false" />
-    <file path="/MovieBean.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373119947566" ignored="false" />
+    <file path="/MovieBean.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373984200667" ignored="false" />
     <file path="/JsonUtil.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373723305135" ignored="false" />
     <file path="/HotMovieView.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1372575269127" ignored="false" />
     <file path="/MovieFocusMap.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1372854860920" ignored="false" />
@@ -73,17 +73,17 @@
     <file path="/CheckUtil.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373691097012" ignored="false" />
     <file path="/search.jsp" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373733134575" ignored="false" />
     <file path="/public.css" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373714226160" ignored="false" />
-    <file path="/ajaxSearch.html" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373738742880" ignored="false" />
+    <file path="/ajaxSearch.html" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373891667624" ignored="false" />
     <file path="/login.html" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373787619981" ignored="false" />
-    <file path="/ManageAction.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373795579053" ignored="false" />
-    <file path="/ManageServiceImpl.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373794530236" ignored="false" />
+    <file path="/ManageAction.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373986319916" ignored="false" />
+    <file path="/ManageServiceImpl.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373985772583" ignored="false" />
     <file path="/fillMovie.jsp" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373786748348" ignored="false" />
     <file path="/MyIntercepter.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373794466808" ignored="false" />
     <file path="/CookieUtil.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373791671670" ignored="false" />
-    <file path="/manage.xml" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373793017390" ignored="false" />
+    <file path="/manage.xml" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373986110821" ignored="false" />
     <file path="/Crypt.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373794191663" ignored="false" />
-    <file path="/ManageService.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373793578081" ignored="false" />
-    <file path="/manage.html" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373802618903" ignored="false" />
+    <file path="/ManageService.java" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373985790658" ignored="false" />
+    <file path="/manage.html" changelist="52996836-d238-465a-b2a3-2632521a20cb" time="1373985192599" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -133,67 +132,112 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="ITVWeb" />
+    <favorites_list name="ITVWeb">
+      <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/resources" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/resources/j2ee_web_services_client_1_1.xsd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/resources/datatypes.dtd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/resources/web-app_2_5.xsd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/resources/j2ee_1_4.xsd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/resources/j2ee_web_services_1_1.xsd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/resources/web-app_2_4.xsd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/resources/web-app_2_2.dtd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/resources/xml.xsd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/resources/XMLSchema.dtd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/resources/web-app_2_3.dtd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/ServletResponse.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/ServletException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/FilterConfig.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/ServletRequestAttributeListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/Servlet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/SingleThreadModel.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/GenericServlet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/ServletRequest.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/ServletOutputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/FilterChain.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/RequestDispatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/UnavailableException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/Filter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/jsp" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/ServletRequestEvent.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/ServletContextAttributeEvent.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/ServletResponseWrapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/LocalStrings.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/ServletRequestListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/ServletRequestWrapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/ServletContextEvent.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/ServletContextAttributeListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/ServletConfig.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/ServletRequestAttributeEvent.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http/HttpSessionBindingListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http/HttpServletResponseWrapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http/Cookie.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http/LocalStrings.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http/HttpSessionListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http/NoBodyOutputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http/HttpServletRequestWrapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http/HttpSessionContext.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http/HttpSessionBindingEvent.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http/HttpServletRequest.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http/HttpSessionAttributeListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http/HttpSessionEvent.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http/HttpServletResponse.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http/HttpSession.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http/HttpUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http/NoBodyResponse.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/http/HttpSessionActivationListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/ServletInputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/ServletContext.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/javax/servlet/ServletContextListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/META-INF" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/META-INF/LICENSE" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/META-INF/NOTICE" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://D:/apache-tomcat-6.0.33/lib/servlet-api.jar!/META-INF/MANIFEST.MF" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+      </favorite_root>
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <file leaf-file-name="manage.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/manage/manage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="83" selection-start="2260" selection-end="2260" vertical-scroll-proportion="-6.617647">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajaxSearch.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/ajaxSearch.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="12" selection-start="1091" selection-end="1091" vertical-scroll-proportion="-8.941176">
+            <state line="54" column="22" selection-start="2120" selection-end="2120" vertical-scroll-proportion="-2.5">
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#3;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#3;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#1;n#tr#2;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#3;n#tr#2;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#1;n#tr#3;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#1;n#tr#4;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#td#1;n#tr#5;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemcacheUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/itv/util/MemcacheUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="20" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/itv/action/SearchAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="31" selection-start="3244" selection-end="3244" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dataSource.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/dataSource.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="23" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="19" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.5714286">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -201,10 +245,53 @@
       <file leaf-file-name="ManageAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/itv/action/ManageAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="55" column="42" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/test/WebTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="19" selection-start="1181" selection-end="1188" vertical-scroll-proportion="0.22727273">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManageServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itv/service/ManageServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="49" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/map/manage.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="33" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itv/pojo/MovieBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="27" selection-start="470" selection-end="478" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="646" column="20" selection-start="30096" selection-end="30096" vertical-scroll-proportion="-12.235294">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -219,22 +306,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/map/manage.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/itv/service/ManageService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/itv/util/Crypt.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login/login.html" />
         <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/itv/intercepter/MyIntercepter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/itv/service/ManageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/manage/manage.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/ajaxSearch.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/itv/util/MemcacheUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/itv/action/ManageAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/itv/action/SearchAction.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/ajaxSearch.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itv/pojo/MovieBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itv/service/ManageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itv/service/ManageService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/manage/manage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/map/manage.xml" />
+        <option value="$PROJECT_DIR$/src/main/test/WebTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itv/action/ManageAction.java" />
         <option value="$PROJECT_DIR$/src/main/resources/dataSource.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itv/util/MemcacheUtil.java" />
       </list>
     </option>
   </component>
@@ -399,7 +486,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -436,10 +522,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -459,85 +541,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ITVWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ITVWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ITVWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ITVWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ITVWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ITVWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -581,11 +585,97 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITVWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITVWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="itv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITVWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITVWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="itv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITVWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITVWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="itv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pojo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -651,29 +741,33 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="MavenSettings" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_ca477551eeb4aea0e4ae9fcd3358bd96720bb5c8/bin/git.exe" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_015aa71ef18c047ce8509ffb2f9e4bb0e3e73f13/bin/git.exe" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.3549133" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
+    <property name="Downloaded.Files.Path" value="F:\IdeaProjects\ITVWeb\lib" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -689,7 +783,7 @@
       <recent name="F:\IdeaProjects\ITVWeb\src\main\webapp\bootstrap" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat7">
+  <component name="RunManager" selected="JUnit.WebTest.taction">
     <configuration default="false" name="WebTest.taction" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="ITVWeb" />
@@ -776,19 +870,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -817,6 +898,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -830,13 +924,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -858,6 +945,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
@@ -1073,8 +1167,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Crypt" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.WebTest.taction" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.WebTest.taction" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Crypt" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1148,11 +1242,11 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21112806" sideWeight="0.5670628" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39291736" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21112806" sideWeight="0.582343" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1656535" sideWeight="0.54468805" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1656535" sideWeight="0.45699832" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5059022" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23480242" sideWeight="0.54468805" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45531198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24696049" sideWeight="0.45699832" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5430017" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1192,7 +1286,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -1220,144 +1314,136 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itv/service/ManageServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ajaxSearch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="40" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/manage/fillMovie.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="91" selection-end="97" vertical-scroll-proportion="-2.2058823">
+        <state line="25" column="30" selection-start="924" selection-end="924" vertical-scroll-proportion="-0.08695652">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login/login.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="70" selection-start="129" selection-end="195" vertical-scroll-proportion="-2.9411764">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#pre#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#pre#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#pre#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#pre#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#pre#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#pre#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#pre#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="646" column="20" selection-start="30096" selection-end="30096" vertical-scroll-proportion="-12.235294">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/bootstrap/css/bootstrap.min2.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itv/intercepter/MyIntercepter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="37" column="19" selection-start="1402" selection-end="1405" vertical-scroll-proportion="0.27272728">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itv/util/Crypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="49" selection-start="464" selection-end="477" vertical-scroll-proportion="0.42095914">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itv/pojo/MovieBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+        <state line="22" column="27" selection-start="470" selection-end="478" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/play.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/map/MovieBean.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-7.5271316">
+        <state line="64" column="19" selection-start="3487" selection-end="3490" vertical-scroll-proportion="0.6666667">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/search.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itv/service/ManageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.575582">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/type.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-13.631783">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/manage/manage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="6" selection-start="7247" selection-end="7247" vertical-scroll-proportion="0.66085273">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#tr#0;tag#tbody#0;tag#table#0;tag#div#1;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#tr#1;tag#tbody#0;tag#table#0;tag#div#1;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#3;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="83" selection-start="2260" selection-end="2260" vertical-scroll-proportion="-6.617647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/ajaxSearch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="12" selection-start="1091" selection-end="1091" vertical-scroll-proportion="-8.941176">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itv/util/MemcacheUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itv/action/ManageAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+        <state line="25" column="7" selection-start="438" selection-end="438" vertical-scroll-proportion="0.58178437">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itv/action/SearchAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itv/service/ManageServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="31" selection-start="3244" selection-end="3244" vertical-scroll-proportion="0.0">
+        <state line="15" column="49" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dataSource.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itv/pojo/MoviePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
+        <state line="7" column="13" selection-start="92" selection-end="92" vertical-scroll-proportion="0.046468403">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/map/manage.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="33" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="19" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.5714286">
+        <state line="82" column="26" selection-start="3433" selection-end="3445" vertical-scroll-proportion="0.52380955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itv/action/ManageAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="42" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dataSource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="244" selection-end="244" vertical-scroll-proportion="0.3809524">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itv/util/MemcacheUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="444" selection-end="444" vertical-scroll-proportion="0.25650558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/manage/manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="22" selection-start="2120" selection-end="2120" vertical-scroll-proportion="-2.5">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#3;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#3;n#tr#1;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#2;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#3;n#tr#2;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#3;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#4;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#td#1;n#tr#5;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/WebTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="19" selection-start="1181" selection-end="1188" vertical-scroll-proportion="0.22727273">
           <folding />
         </state>
       </provider>
@@ -1385,7 +1471,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3549133" />
               </list>
             </option>
           </splitter-proportions>
@@ -1409,7 +1495,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3549133" />
               </list>
             </option>
           </splitter-proportions>
@@ -1421,7 +1507,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3549133" />
               </list>
             </option>
           </splitter-proportions>
@@ -1445,7 +1531,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3549133" />
               </list>
             </option>
           </splitter-proportions>

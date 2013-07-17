@@ -26,6 +26,7 @@ public class MovieBean implements Serializable {
 	private int suppliesCount;//第三方资源数
 	private String supplierUrl;//本网页的url
     private List<Supplie> supList;//第三方影片资源list
+    private String downUrl;//下载地址
 	public String getName() {
 		return name;
 	}
@@ -161,6 +162,15 @@ public class MovieBean implements Serializable {
     public void setSupList(List<Supplie> supList) {
         this.supList = supList;
     }
+
+    public String getDownUrl() {
+        return downUrl;
+    }
+
+    public void setDownUrl(String downUrl) {
+        this.downUrl = downUrl;
+    }
+
     public String toString() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("影视名称：");

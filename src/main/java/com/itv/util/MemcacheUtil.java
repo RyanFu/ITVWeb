@@ -15,8 +15,8 @@ public class MemcacheUtil {
 
     static {
         try {
-            mc = new SaeMemcache("192.168.28.128", 11211);
-            mc.init();
+            //mc = new SaeMemcache("192.168.28.128", 11211);
+           // mc.init();
             log.info("memcache 初始化成功.");
         } catch (Exception e) {
             log.error("memchace 初始化失败",e);

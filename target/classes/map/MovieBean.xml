@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itv.movie">
+
+    <insert id="insertMovieList">
+        insert into movie values
+        <foreach collection="list" item="movieList" separator=",">
+            (#{movieList.id},#{movieList.name},#{movieList.director},#{movieList.actor},#{movieList.area},#{movieList.supplierUrl},#{movieList.year},#{movieList.duration},#{movieList.value},#{movieList.less},#{movieList.ratingCount},#{movieList.suppliesCount},#{movieList.supplies},#{movieList.imgUrl},#{movieList.language})
+        </foreach>
+    </insert>
+    <select id="findMovieIndex" parameterType="Integer" resultType="movieIndex">
+      select mf.name as name,bigImgUrl,miniImgUrl,text,m.id as id from movie_focus_map as mf,movie as m  where  type = #{value} and mf.supplierUrl=m.supplierUrl
+    </select>
+
+    <select id="findHotMovie" parameterType="Integer" resultType="movieView">
+      select mf.name as name,miniImgUrl,text,m.id as mid ,m.actor as asactor  from movie_focus_map as mf,movie as m  where  type = #{value} and mf.supplierUrl=m.supplierUrl
+    </select>
+
+    <select id="findNetMovie" parameterType="Integer" resultType="movieView">
+      select mf.name as name,miniImgUrl,text,m.id as mid ,m.actor as asactor  from movie_focus_map as mf,movie as m  where  type = #{value} and mf.supplierUrl=m.supplierUrl limit 8,10
+    </select>
+
+    <select id="findPreMove" parameterType="Integer" resultType="movieView">
+        select mf.name as name,miniImgUrl,m.id as mid from movie_focus_map as mf,movie as m  where  type = #{value} and mf.supplierUrl=m.supplierUrl
+    </select>
+    <select id="findEasyMovie" parameterType="Integer" resultType="movieView">
+      select mf.name as name,miniImgUrl,text,m.id as mid ,m.actor as asactor  from movie_focus_map as mf,movie as m  where  type = #{value} and mf.supplierUrl=m.supplierUrl limit 0,10
+    </select>
+    <select id="findEasyTopMovie" parameterType="Integer" resultType="movieView">
+      select mf.name as name,miniImgUrl,m.id as mid ,m.actor as asactor  from movie_focus_map as mf,movie as m  where  type = #{value} and mf.supplierUrl=m.supplierUrl order by mf.id limit 0,15
+    </select>
+    <select id="findMovieInfo" parameterType="String" resultType="movie">
+        select * from movie where id=#{value}
+    </select>
+
+    <select id="type" parameterType="moviePage" resultType="moviePage">
+        select id,name,director,actor,year,duration,value,imgUrl from movie
+        <where>
+            <if test="area != null and area !=''">
+                area like "%"#{area}"%"
+            </if>
+            <if test="year != null and year !=''">
+                and year like #{year}"%"
+            </if>
+            <if test="actor != null and actor !=''">
+                and actor like "%"#{actor}"%"
+            </if>
+            and name is not null
+        </where>
+        order by year desc , ratingCount desc
+        limit #{page_cur},30
+    </select>
+    <select id="typePage" parameterType="moviePage" resultType="Integer">
+        select count(id) from movie
+        <where>
+            <if test="area != null and area !=''">
+                area like "%"#{area}"%"
+            </if>
+            <if test="year != null and year !=''">
+                and year like #{year}"%"
+            </if>
+            <if test="actor != null and actor !=''">
+                and actor like "%"#{actor}"%"
+            </if>
+        </where>
+    </select>
+    <select id="search" parameterType="String" resultType="movie">
+        select id,name,director,actor,area,year,duration,imgUrl,less from movie where name like "%"#{value}"%" order
+        by year desc,
+        ratingCount desc limit 0,15
+    </select>
+    <select id="searchAjax" parameterType="String" resultType="String">
+        select name from movie where name like #{value}"%" order
+        by year desc,ratingCount desc limit 0,15
+    </select>
+</mapper>
