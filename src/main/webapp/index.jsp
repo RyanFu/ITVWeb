@@ -1,5 +1,5 @@
-<%@ page language="java"  pageEncoding="utf-8"%>
-<%@ taglib uri="/struts-tags" prefix="s"%>
+<%@ page language="java" pageEncoding="utf-8" %>
+<%@ taglib uri="/struts-tags" prefix="s" %>
 <%
     String path = request.getContextPath();
     String basePath = request.getScheme() + "://"
@@ -24,12 +24,12 @@
     <script type="text/javascript" src="<%=basePath%>bootstrap/js/gotop.js"></script>
     <script type="text/javascript" src="<%=basePath%>bootstrap/js/jquery.lazyload.min.js"></script>
     <script type="text/javascript">
-        $(function() {
+        $(function () {
             $("img.lazy").lazyload({
-                threshold :100
+                threshold: 100
             });
-            var lazy=$("#myCarousel img.lazy2");
-            for(var i=0;i<lazy.length;i++){
+            var lazy = $("#myCarousel img.lazy2");
+            for (var i = 0; i < lazy.length; i++) {
                 var imgSrc = lazy[i].getAttribute('data-original');
                 lazy[i].setAttribute('src', imgSrc);
             }
@@ -43,6 +43,7 @@
         <div id="top_left1">
             <div class="trademark">
                 <p class="t_p1"><strong>iTV&nbsp;</strong><span class="t_s">影视</span></p>
+
                 <p class="t_p2">中国更新最快的电影网站</p>
             </div>
         </div>
@@ -52,7 +53,8 @@
                       onsubmit="return checkSeach();">
                     <input class="span2" name="name" id="search-text" type="text" autocomplete="off">
                     <button class="btn" type="submit">搜索</button>
-                </form>>
+                </form>
+                >
             </div>
         </div>
         <jsp:include page="ajaxSearch.html"></jsp:include>
@@ -109,7 +111,8 @@
                 <s:else>
                     <div class="item">
                         <a href="<%=basePath%>itv_fm/playAction/play/${li.id}.html" target="_blank">
-                            <img src="http://p8.qhimg.com/d/_hao360/default.png" data-original="${li.bigImgUrl}" class="lazy2" alt="${li.name}">
+                            <img src="http://p8.qhimg.com/d/_hao360/default.png" data-original="${li.bigImgUrl}"
+                                 class="lazy2" alt="${li.name}">
                         </a>
                     </div>
                 </s:else>
@@ -122,15 +125,16 @@
             <div class="focus-title" id="focus-title">
                 <s:iterator value="list" var="li" status="con">
                     <s:if test="#con.count==1">
-                        <a style="display: inline;" href="<%=basePath%>itv_fm/playAction/play/${li.id}.html" target="_blank">
+                        <a style="display: inline;" href="<%=basePath%>itv_fm/playAction/play/${li.id}.html"
+                           target="_blank">
                             <em class="title">${li.name}</em>
-                            ${li.text}
+                                ${li.text}
                         </a>
                     </s:if>
                     <s:else>
-                        <a  href="<%=basePath%>itv_fm/playAction/play/${li.id}.html" target="_blank">
+                        <a href="<%=basePath%>itv_fm/playAction/play/${li.id}.html" target="_blank">
                             <em class="title">${li.name}</em>
-                            ${li.text}
+                                ${li.text}
                         </a>
                     </s:else>
                 </s:iterator>
@@ -140,7 +144,8 @@
                 <s:iterator value="list" var="li" status="con">
                     <li data-target="#myCarousel" data-slide-to="${con.count-1}" class="active">
                         <a href="<%=basePath%>itv_fm/playAction/play/${li.id}.html">
-                            <img src="http://p8.qhimg.com/d/_hao360/default.png" data-original="${li.miniImgUrl}" class="lazy2" alt="${li.name}">
+                            <img src="http://p8.qhimg.com/d/_hao360/default.png" data-original="${li.miniImgUrl}"
+                                 class="lazy2" alt="${li.name}">
                         </a>
                     </li>
                 </s:iterator>
@@ -221,15 +226,18 @@
                             <div class="pic">
                                 <a class="mod-hint le-playico" target="_blank" title="${hot.name}"
                                    href="<%=basePath%>itv_fm/playAction/play/${hot.mid}.html">
-                                    <img alt="${hot.name}" src="http://p8.qhimg.com/d/_hao360/default.png" data-original="${hot.miniImgUrl}" class="lazy">
+                                    <img alt="${hot.name}" src="http://p8.qhimg.com/d/_hao360/default.png"
+                                         data-original="${hot.miniImgUrl}" class="lazy">
                                     <span class="hintbg"></span>
                                     <span class="center"> ${hot.asactor} </span>
                                 </a>
                             </div>
                             <div class="cont">
                                 <h4>
-                                    <a class="title v-tomato-tit-yellow" target="_blank" href="<%=basePath%>itv_fm/playAction/play/${hot.mid}.html">${hot.name}</a>
+                                    <a class="title v-tomato-tit-yellow" target="_blank"
+                                       href="<%=basePath%>itv_fm/playAction/play/${hot.mid}.html">${hot.name}</a>
                                 </h4>
+
                                 <p>${hot.text}</p>
                             </div>
                         </div>
@@ -249,7 +257,8 @@
                         <li class="hot_ol_li_top3">
                             <div class="index">${con.count}</div>
                             <div>
-                                <a title="${htop.name}" href="<%=basePath%>itv_fm/playAction/play/${htop.mid}.html" target="_blank">${htop.name}</a>
+                                <a title="${htop.name}" href="<%=basePath%>itv_fm/playAction/play/${htop.mid}.html"
+                                   target="_blank">${htop.name}</a>
                             </div>
                             <div class="star">${htop.asactor}</div>
                         </li>
@@ -258,7 +267,8 @@
                         <li class="hot_ol_li_tail">
                             <div class="index">${con.count}</div>
                             <div>
-                                <a title="${htop.name}" href="<%=basePath%>itv_fm/playAction/play/${htop.mid}.html" target="_blank">${htop.name}</a>
+                                <a title="${htop.name}" href="<%=basePath%>itv_fm/playAction/play/${htop.mid}.html"
+                                   target="_blank">${htop.name}</a>
                             </div>
                             <div class="star">${htop.asactor}</div>
                         </li>
@@ -282,14 +292,16 @@
                             <div class="pic">
                                 <a class="mod-hint le-playico" target="_blank" title="${net.name}"
                                    href="<%=basePath%>itv_fm/playAction/play/${net.mid}.html">
-                                    <img alt="${net.name}" src="http://p8.qhimg.com/d/_hao360/default.png" data-original="${net.miniImgUrl}" class="lazy">
+                                    <img alt="${net.name}" src="http://p8.qhimg.com/d/_hao360/default.png"
+                                         data-original="${net.miniImgUrl}" class="lazy">
                                     <span class="hintbg"></span>
                                     <span class="center"> ${net.asactor} </span>
                                 </a>
                             </div>
                             <div class="cont">
                                 <h4>
-                                    <a class="title v-tomato-tit-yellow" target="_blank" href="<%=basePath%>itv_fm/playAction/play/${net.mid}.html">${net.name}</a>
+                                    <a class="title v-tomato-tit-yellow" target="_blank"
+                                       href="<%=basePath%>itv_fm/playAction/play/${net.mid}.html">${net.name}</a>
                                 </h4>
 
                                 <p>${net.text}</p>
@@ -311,7 +323,8 @@
                         <li class="hot_ol_li_top3">
                             <div class="index">${con.count}</div>
                             <div>
-                                <a title="${ntop.name}" href="<%=basePath%>itv_fm/playAction/play/${ntop.mid}.html" target="_blank">${ntop.name}</a>
+                                <a title="${ntop.name}" href="<%=basePath%>itv_fm/playAction/play/${ntop.mid}.html"
+                                   target="_blank">${ntop.name}</a>
                             </div>
                             <div class="star">${ntop.asactor}</div>
                         </li>
@@ -320,7 +333,8 @@
                         <li class="hot_ol_li_tail">
                             <div class="index">${con.count}</div>
                             <div>
-                                <a title="${ntop.name}" href="<%=basePath%>itv_fm/playAction/play/${ntop.mid}.html" target="_blank">${ntop.name}</a>
+                                <a title="${ntop.name}" href="<%=basePath%>itv_fm/playAction/play/${ntop.mid}.html"
+                                   target="_blank">${ntop.name}</a>
                             </div>
                             <div class="star">${ntop.asactor}</div>
                         </li>
@@ -351,15 +365,18 @@
                     <li>
                         <div class="le-figure">
                             <div class="pic">
-                                <a class="mod-hint le-playico" target="_blank" title="${pre.name}" href="<%=basePath%>itv_fm/playAction/play/${pre.mid}.html">
-                                    <img alt="${pre.name}" src="http://p8.qhimg.com/d/_hao360/default.png" data-original="${pre.miniImgUrl}" class="lazy">
+                                <a class="mod-hint le-playico" target="_blank" title="${pre.name}"
+                                   href="<%=basePath%>itv_fm/playAction/play/${pre.mid}.html">
+                                    <img alt="${pre.name}" src="http://p8.qhimg.com/d/_hao360/default.png"
+                                         data-original="${pre.miniImgUrl}" class="lazy">
                                     <span class="hintbg"></span>
                                     <span class="center"> 点击下载 </span>
                                 </a>
                             </div>
                             <div class="cont">
                                 <h4>
-                                    <a class="title v-tomato-tit-yellow" target="_blank" href="<%=basePath%>itv_fm/playAction/play/${pre.mid}.html">${pre.name}</a>
+                                    <a class="title v-tomato-tit-yellow" target="_blank"
+                                       href="<%=basePath%>itv_fm/playAction/play/${pre.mid}.html">${pre.name}</a>
                                 </h4>
                             </div>
                         </div>
@@ -369,15 +386,18 @@
                     <li class="pre_li_3">
                         <div class="le-figure">
                             <div class="pic">
-                                <a class="mod-hint le-playico" target="_blank" title="${pre.name}" href="<%=basePath%>itv_fm/playAction/play/${pre.mid}.html">
-                                    <img alt="${pre.name}" src="http://p8.qhimg.com/d/_hao360/default.png" data-original="${pre.miniImgUrl}" class="lazy">
+                                <a class="mod-hint le-playico" target="_blank" title="${pre.name}"
+                                   href="<%=basePath%>itv_fm/playAction/play/${pre.mid}.html">
+                                    <img alt="${pre.name}" src="http://p8.qhimg.com/d/_hao360/default.png"
+                                         data-original="${pre.miniImgUrl}" class="lazy">
                                     <span class="hintbg"></span>
                                     <span class="center"> 点击下载 </span>
                                 </a>
                             </div>
                             <div class="cont">
                                 <h4>
-                                    <a class="title v-tomato-tit-yellow" target="_blank" href="<%=basePath%>itv_fm/playAction/play/${pre.mid}.html">${pre.name}</a>
+                                    <a class="title v-tomato-tit-yellow" target="_blank"
+                                       href="<%=basePath%>itv_fm/playAction/play/${pre.mid}.html">${pre.name}</a>
                                 </h4>
                             </div>
                         </div>
@@ -401,15 +421,18 @@
                             <div class="pic">
                                 <a class="mod-hint le-playico" target="_blank" title="${easy.name}"
                                    href="<%=basePath%>itv_fm/playAction/play/${easy.mid}.html">
-                                    <img alt="${easy.name}" src="http://p8.qhimg.com/d/_hao360/default.png" data-original="${easy.miniImgUrl}" class="lazy">
+                                    <img alt="${easy.name}" src="http://p8.qhimg.com/d/_hao360/default.png"
+                                         data-original="${easy.miniImgUrl}" class="lazy">
                                     <span class="hintbg"></span>
                                     <span class="center"> ${easy.asactor} </span>
                                 </a>
                             </div>
                             <div class="cont">
                                 <h4>
-                                    <a class="title v-tomato-tit-yellow" target="_blank" href="<%=basePath%>itv_fm/playAction/play/${easy.mid}.html">${easy.name}</a>
+                                    <a class="title v-tomato-tit-yellow" target="_blank"
+                                       href="<%=basePath%>itv_fm/playAction/play/${easy.mid}.html">${easy.name}</a>
                                 </h4>
+
                                 <p>${easy.text}</p>
                             </div>
                         </div>
@@ -429,7 +452,8 @@
                         <li class="hot_ol_li_top3">
                             <div class="index">${con.count}</div>
                             <div>
-                                <a title="${etop.name}" href="<%=basePath%>itv_fm/playAction/play/${etop.mid}.html" target="_blank">${etop.name}</a>
+                                <a title="${etop.name}" href="<%=basePath%>itv_fm/playAction/play/${etop.mid}.html"
+                                   target="_blank">${etop.name}</a>
                             </div>
                             <div class="star">${etop.asactor}</div>
                         </li>
@@ -438,7 +462,8 @@
                         <li class="hot_ol_li_tail">
                             <div class="index">${con.count}</div>
                             <div>
-                                <a title="${etop.name}" href="<%=basePath%>itv_fm/playAction/play/${etop.mid}.html" target="_blank">${etop.name}</a>
+                                <a title="${etop.name}" href="<%=basePath%>itv_fm/playAction/play/${etop.mid}.html"
+                                   target="_blank">${etop.name}</a>
                             </div>
                             <div class="star">${etop.asactor}</div>
                         </li>
@@ -462,15 +487,18 @@
                             <div class="pic">
                                 <a class="mod-hint le-playico" target="_blank" title="${pas.name}"
                                    href="<%=basePath%>itv_fm/playAction/play/${pas.mid}.html">
-                                    <img alt="${pas.name}" src="http://p8.qhimg.com/d/_hao360/default.png" data-original="${pas.miniImgUrl}" class="lazy">
+                                    <img alt="${pas.name}" src="http://p8.qhimg.com/d/_hao360/default.png"
+                                         data-original="${pas.miniImgUrl}" class="lazy">
                                     <span class="hintbg"></span>
                                     <span class="center"> ${pas.asactor} </span>
                                 </a>
                             </div>
                             <div class="cont">
                                 <h4>
-                                    <a class="title v-tomato-tit-yellow" target="_blank" href="<%=basePath%>itv_fm/playAction/play/${pas.mid}.html">${pas.name}</a>
+                                    <a class="title v-tomato-tit-yellow" target="_blank"
+                                       href="<%=basePath%>itv_fm/playAction/play/${pas.mid}.html">${pas.name}</a>
                                 </h4>
+
                                 <p>${pas.text}</p>
                             </div>
                         </div>
@@ -490,7 +518,8 @@
                         <li class="hot_ol_li_top3">
                             <div class="index">${con.count}</div>
                             <div>
-                                <a title="${ptop.name}" href="<%=basePath%>itv_fm/playAction/play/${ptop.mid}.html" target="_blank">${ptop.name}</a>
+                                <a title="${ptop.name}" href="<%=basePath%>itv_fm/playAction/play/${ptop.mid}.html"
+                                   target="_blank">${ptop.name}</a>
                             </div>
                             <div class="star">${ptop.asactor}</div>
                         </li>
@@ -499,7 +528,8 @@
                         <li class="hot_ol_li_tail">
                             <div class="index">${con.count}</div>
                             <div>
-                                <a title="${ptop.name}" href="<%=basePath%>itv_fm/playAction/play/${ptop.mid}.html" target="_blank">${ptop.name}</a>
+                                <a title="${ptop.name}" href="<%=basePath%>itv_fm/playAction/play/${ptop.mid}.html"
+                                   target="_blank">${ptop.name}</a>
                             </div>
                             <div class="star">${ptop.asactor}</div>
                         </li>
@@ -607,22 +637,23 @@
         var id = 0
         setTimeout(
                 function () {
-                    try{
+                    try {
                         id = xx.find('li.active').attr("data-slide-to");
                         var title = $('#focus-title a');
                         var len = title.length;
                         for (var i = 0; i < len; i++) {
-                            if(title[i].style!=undefined){
+                            if (title[i].style != undefined) {
                                 title[i].style.display = 'none';
                             }
                         }
                         title[id].style.display = 'inline';
-                    }catch (err){}
+                    } catch (err) {
+                    }
                 }, 0);
 
     })
 
-    var over=true;
+    var over = true;
     $("#fol li").bind("mouseover", function (event) {
         var id_ = $(this).attr("data-slide-to");
         id_ = Number(id_);
@@ -638,10 +669,14 @@
     $("#fol li").bind("mouseout", function (event) {
         $(this).removeClass("actives");
     });
-    function checkSeach(){
-        var svalue=$("#search-text").val();
-        var reg="/^[\\s]*$/";
-        if(reg.test(svalue)){
+    function checkSeach() {
+        var svalue = $("#search-text").val();
+        var regs = /^\s*$/;
+        try {
+            if (regs.test(svalue)) {
+                return false;
+            }
+        } catch (e) {
             return false;
         }
         return true;

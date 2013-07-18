@@ -7,8 +7,8 @@
         select password from user where username= #{value} limit 0,1
     </select>
 
-    <select id="findFillMovie" parameterType="movie" resultType="String">
-        select id,name,director,actor,year,imgUrl,less,supplies from movie
+    <select id="findFillMovie" parameterType="movie" resultType="movie">
+        select id,name,director,actor,area,year,imgUrl,less,supplies,suppliesCount from movie
         <where>
             <if test="name == 1">
                 name is null

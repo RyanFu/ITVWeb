@@ -53,11 +53,10 @@ public class ManageAction {
     public String findFillMovie(){
         try {
             this.list=this.manageService.findFillMovie(this.mb);
-            System.out.println(list.size());
         } catch (Exception e) {
             log.error("",e);
         }
-        return "";
+        return "manage";
     }
     public void setName(String name) {
         this.name = name;
@@ -77,5 +76,9 @@ public class ManageAction {
 
     public void setList(List<MovieBean> list) {
         this.list = list;
+    }
+
+    public List<MovieBean> getList() {
+        return list;
     }
 }

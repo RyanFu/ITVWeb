@@ -40,7 +40,6 @@ public class MyIntercepter extends AbstractInterceptor {
             }
             if(pwd==null){
                 pwd=baseDao.findOne("com.itv.manage.login",uinfo[0]);
-                System.out.println(pwd+"   "+uinfo[0]);
                 pwd=Crypt.MD5(uinfo[0]+pwd);
                 if(mem!=null){
                     mem.set(uinfo[0],pwd,MemcacheUtil.TIMEOUT);
