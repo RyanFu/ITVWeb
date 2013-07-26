@@ -62,3 +62,6 @@ ins, s, u, del {
     text-decoration: none;
     margin-left: 5px;
 }
+#key_{
+    display: none;
+}

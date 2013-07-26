@@ -2,6 +2,7 @@ package com.itv.service;
 
 import com.itv.dao.IBaseDao;
 import com.itv.pojo.MovieBean;
+import com.itv.pojo.MoviePage;
 import com.itv.util.Crypt;
 import com.itv.util.MemcacheUtil;
 import com.sina.sae.memcached.SaeMemcache;
@@ -42,10 +43,37 @@ public class ManageServiceImpl implements ManageService{
         return false;
     }
 
-    public List<MovieBean> findFillMovie(MovieBean mb) throws Exception {
-        return this.baseDao.find("com.itv.manage.findFillMovie",mb);
+    /**
+     * 查询残缺
+     * @param mp
+     * @return
+     * @throws Exception
+     */
+    public List<MovieBean> findFillMovie(MoviePage mp) throws Exception {
+        return this.baseDao.find("com.itv.manage.findFillMovie",mp);
     }
 
+    /**
+     * 残缺信息查询分页
+     * @param mp
+     * @return
+     * @throws Exception
+     */
+    public Integer fillMoviePage(MoviePage mp) throws Exception{
+        return (Integer)this.baseDao.findOne("com.itv.manage.findFillMoviePage",mp);
+    }
+
+    /**
+     * 修补视频信息
+     * @param mb
+     * @throws Exception
+     */
+    public void updateMovie(MovieBean mb)throws  Exception{
+       boolean b=this.baseDao.update("com.itv.manage.updateMovie",mb);
+        if (b&&mc!=null) {
+            mc.delete(mb.getId());
+        }
+    }
     public void setBaseDao(IBaseDao baseDao) {
         this.baseDao = baseDao;
     }

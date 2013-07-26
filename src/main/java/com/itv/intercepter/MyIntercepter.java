@@ -27,6 +27,9 @@ public class MyIntercepter extends AbstractInterceptor {
             return arg0.invoke();
         }
         String user = CookieUtil.getDecodeValue(CookieUtil.getCookieValue(ServletActionContext.getRequest()));
+        if(user==null){
+            return "reLogin";
+        }
         String[] uinfo = user.split(":");
         if (uinfo != null && uinfo.length == 3) {
             long time = Long.parseLong(uinfo[2]);

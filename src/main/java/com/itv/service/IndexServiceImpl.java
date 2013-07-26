@@ -21,7 +21,12 @@ public class IndexServiceImpl<T> implements IndexService {
     public List<T> findFocusMap() throws Exception {
         List<T> list = null;
         if (mc != null) {
-            list = mc.get("focusMap");
+            try {
+                list = mc.get("focusMap");
+            }catch (Exception e){
+                MemcacheUtil.init();
+            }
+
         }
         if (list == null || list.size() <= 0) {
             list = this.baseDao.find("com.itv.movie.findMovieIndex", 0);

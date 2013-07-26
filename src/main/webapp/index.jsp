@@ -15,6 +15,7 @@
     <meta name="keywords" content="itv9,itv9视频,itv9影视,大片,最新电影,最新大片,免费电影,高清电影,更新最快的电影,在线视频,在线电影,伦理片,在线高清电影">
     <meta name="description" content="itv9--最新、最全的视频网站-在线观看">
     <title>itv9电影频道-最新最全更新最快的电影网站-在线观看</title>
+    <link rel="shortcut icon" href="<%=basePath%>bootstrap/img/itv9.ico" />
     <link href="<%=basePath%>bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="<%=basePath%>bootstrap/css/index.css" rel="stylesheet">
     <link href="<%=basePath%>bootstrap/css/copyright.css" rel="stylesheet">
@@ -26,7 +27,8 @@
     <script type="text/javascript">
         $(function () {
             $("img.lazy").lazyload({
-                threshold: 100
+                threshold: 100,
+                failure_limit:20
             });
             var lazy = $("#myCarousel img.lazy2");
             for (var i = 0; i < lazy.length; i++) {
@@ -159,17 +161,17 @@
         <dl class="dl_type">
             <dt>类型</dt>
             <dd>
-                <a href="">喜剧</a>
+                <a href="<%=basePath%>searchAction_type.htm?mp.typeName=喜剧" target="_blank">喜剧</a>
             </dd>
-            <dd><a href="">动作</a></dd>
-            <dd><a href="">爱情</a></dd>
-            <dd><a href="">恐怖</a></dd>
-            <dd><a href="">科幻</a></dd>
-            <dd><a href="">犯罪</a></dd>
-            <dd><a href="">战争</a></dd>
-            <dd><a href="">悬疑</a></dd>
-            <dd><a href="">动画</a></dd>
-            <dd><a href="">伦理</a></dd>
+            <dd><a href="<%=basePath%>searchAction_type.htm?mp.typeName=动作" target="_blank">动作</a></dd>
+            <dd><a href="<%=basePath%>searchAction_type.htm?mp.typeName=爱情" target="_blank">爱情</a></dd>
+            <dd><a href="<%=basePath%>searchAction_type.htm?mp.typeName=恐怖" target="_blank">恐怖</a></dd>
+            <dd><a href="<%=basePath%>searchAction_type.htm?mp.typeName=科幻" target="_blank">科幻</a></dd>
+            <dd><a href="<%=basePath%>searchAction_type.htm?mp.typeName=犯罪" target="_blank">犯罪</a></dd>
+            <dd><a href="<%=basePath%>searchAction_type.htm?mp.typeName=战争" target="_blank">战争</a></dd>
+            <dd><a href="<%=basePath%>searchAction_type.htm?mp.typeName=悬疑" target="_blank">悬疑</a></dd>
+            <dd><a href="<%=basePath%>searchAction_type.htm?mp.typeName=动画" target="_blank">动画</a></dd>
+            <dd><a href="<%=basePath%>searchAction_type.htm?mp.typeName=伦理" target="_blank">伦理</a></dd>
         </dl>
         <dl class="dl_arer">
             <dt>
@@ -498,7 +500,6 @@
                                     <a class="title v-tomato-tit-yellow" target="_blank"
                                        href="<%=basePath%>itv_fm/playAction/play/${pas.mid}.html">${pas.name}</a>
                                 </h4>
-
                                 <p>${pas.text}</p>
                             </div>
                         </div>
@@ -626,6 +627,11 @@
         <jsp:include page="share.html"></jsp:include>
     </div>
 </div>
+<div class="down_none">
+    itv9,itv9视频,itv9影视,大片,最新电影,最新大片,免费电影,高清电影,更新最快的电影,在线视频,在线电影,伦理片,在线高清电影
+    全城高考 爱情不NG 笑功震武林 不二神探 我们都是坏孩子 女人公敌 钢铁侠3 中国合伙人 小时代 苍井空 小泽玛利亚 藤原纪香
+    富春山居图 致青春 速度与激情6 厨子戏子痞子 青春荷尔蒙 越来越好之村晚 不二神探 黄金大劫案  伦理电影 搞笑电影 战争片
+</div>
 </body>
 <script type="text/javascript">
     $('#myCarousel').carousel({
@@ -669,17 +675,5 @@
     $("#fol li").bind("mouseout", function (event) {
         $(this).removeClass("actives");
     });
-    function checkSeach() {
-        var svalue = $("#search-text").val();
-        var regs = /^\s*$/;
-        try {
-            if (regs.test(svalue)) {
-                return false;
-            }
-        } catch (e) {
-            return false;
-        }
-        return true;
-    }
 </script>
 </html>

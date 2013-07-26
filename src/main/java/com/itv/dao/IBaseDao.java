@@ -27,4 +27,13 @@ public interface IBaseDao<T> {
      * @throws Exception
      */
     public T findOne(String sqlName,Object obj)throws Exception;
+
+    /**
+     * 修改对象 where条件是对象的属性
+     * @param obj 被修改对象
+     * @param sqlName sql语句名称
+     * @return boolean
+     * @throws Exception
+     */
+    public boolean update(String sqlName,Object obj) throws Exception;
 }

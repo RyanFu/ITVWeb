@@ -11,6 +11,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <title>后台管理系统</title>
+    <link rel="shortcut icon" href="<%=basePath%>bootstrap/img/itv9.ico"/>
     <link href="<%=basePath%>bootstrap/css/bootstrap.min2.css" rel="stylesheet">
     <script type="text/javascript" src="http://www.see-source.com/bootstrap/js/jquery.js"></script>
     <script type="text/javascript" src="<%=basePath%>bootstrap/js/bootstrap.min.js"></script>
@@ -23,10 +24,12 @@
         .navbar-inner {
             width: 960px;
         }
-        .table td{
+
+        .table td {
             font-size: 13px;
             font-family: '宋体';
         }
+
         .full {
             width: 100%;
             height: 100%;
@@ -40,40 +43,44 @@
             <a class="brand" href="http://www.itv9.cn">网站首页</a>
             <ul class="nav">
                 <li><a href="#">首页设置</a></li>
-                <li><a href="manageAction_fill.htm">信息补全</a></li>
+                <li><a href="manageAction_findFillMovie.htm">信息补全</a></li>
                 <li><a href="#">添加视频</a></li>
             </ul>
         </div>
     </div>
-    <form action="" method="post">
+    <form action="manageAction_findFillMovie.htm" method="post">
         <div class="hero-unit narrow" style="padding: 10px;">
             <div style="position: relative;top: 5px">
+                <p style="margin-left: 10px">
+                   影视名称 <input name="name" type="text" value="${mp.name== 'tru' ? '' : mp.name}" style="height: 30px;
+                   margin-top: 5px">
+                </p>
                 <label class="checkbox inline" style="padding-left: 10px">
                     查询空列
                 </label>
                 <label class="checkbox inline">
-                    <input type="checkbox" id="inlineCheckbox1" value="1" name="mb.name"> 名称
+                    <input type="checkbox" ${mp.name=='tru'?'checked':''} value="tru" name="mp.name"> 名称
                 </label>
                 <label class="checkbox inline">
-                    <input type="checkbox" id="inlineCheckbox2" value="1" name="mb.director"> 导演
+                    <input type="checkbox" ${mp.director=='tru'?'checked':''} value="tru" name="mp.director"> 导演
                 </label>
                 <label class="checkbox inline">
-                    <input type="checkbox" id="inlineCheckbox3" value="1" name="mb.actor"> 主演
+                    <input type="checkbox" ${mp.actor=='tru'?'checked':''} value="tru" name="mp.actor"> 主演
                 </label>
                 <label class="checkbox inline">
-                    <input type="checkbox" id="inlineCheckbox4" value="1" name="mb.area"> 地区
+                    <input type="checkbox" ${mp.area=='tru'?'checked':''} value="tru" name="mp.area"> 地区
                 </label>
                 <label class="checkbox inline">
-                    <input type="checkbox" id="inlineCheckbox5" value="1" name="mb.year"> 年代
+                    <input type="checkbox" ${mp.year=='tru'?'checked':''} value="tru" name="mp.year"> 年代
                 </label>
                 <label class="checkbox inline">
-                    <input type="checkbox" id="inlineCheckbox6" value="1" name="mb.less"> 简介
+                    <input type="checkbox" ${mp.less=='tru'?'checked':''} value="tru" name="mp.less"> 简介
                 </label>
                 <label class="checkbox inline">
-                    <input type="checkbox" id="inlineCheckbox7" value="1" name="mb.imgUrl"> 图片
+                    <input type="checkbox" ${mp.imgUrl=='tru'?'checked':''} value="tru" name="mp.imgUrl"> 图片
                 </label>
                 <label class="checkbox inline">
-                    <input type="checkbox" id="inlineCheckbox8" value="1" name="mb.supplies"> 资源
+                    <input type="checkbox" ${mp.supplies=='tru'?'checked':''} value="tru" name="mp.supplies"> 资源
                 </label>
                 <button class="btn" type="submit" style="float: right">查询</button>
             </div>
@@ -94,14 +101,20 @@
                     <tbody>
                     <s:iterator value="list" var="li">
                         <tr>
-                            <td>${li.name==null?"无":li.name}</td>
-                            <td>${li.director==null?"无":li.director}</td>
-                            <td>${li.actor==""?"无":li.actor}</td>
-                            <td>${li.year}</td>
-                            <td>${li.area==null?"无":li.area}</td>
-                            <td>${li.suppliesCount}</td>
+                            <td>${li.name}&nbsp;</td>
+                            <td>${li.director}&nbsp;</td>
+                            <td>${li.actor}&nbsp;</td>
+                            <td>${li.year}&nbsp;</td>
+                            <td>${li.area}&nbsp;</td>
+                            <td>${li.suppliesCount}&nbsp;</td>
                             <td>
-                                <button class="btn" type="button">Edit</button>
+                                <p id="${li.id}" style="display: none">
+                                    {'id':'${li.id}','name':'${li.name}','director':'${li.director}',
+                                    'actor':'${li.actor}','year':'${li.year}','area':'${li.area}',
+                                    'supplies':'${li.supplies}','imgUrl':'${li.imgUrl}','less':'${li.less}',
+                                    'downUrl':'${li.downUrl}','supplierUrl':'${li.supplierUrl}'}
+                                </p>
+                                <button class="btn" type="button" data="${li.id}">Edit</button>
                             </td>
                         </tr>
                     </s:iterator>
@@ -111,19 +124,46 @@
             <div style="position: relative;top:20px;padding-left: 10px;">
                 <div class="pagination">
                     <ul>
-                        <li class="disabled"><a href="#">&laquo;</a></li>
-                        <li class="active"><a href="#">1</a></li>
-                        <li class="active"><a href="#">2</a></li>
-                        <li class="active"><a href="#">3</a></li>
-                        <li class="active"><a href="#">4</a></li>
-                        <li class="active"><a href="#">&raquo;</a></li>
+                        <s:if test="mp.page == 1">
+                            <li class="disabled">
+                                <a href="javascript:void(0);">&laquo;</a>
+                            </li>
+                        </s:if>
+                        <s:else>
+                            <li class="active">
+                                <a href="<%=basePath%>manageAction_findFillMovie.htm?mp.page=${mp.page-1}&mp.name=${mp.name}&mp.director=${mp.director}&mp.actor=${mp.actor}&mp.area=${mp.area}&mp.year=${mp.year}&mp.less=${mp.less}&mp.imgUrl=${mp.imgUrl}&mp.supplies=${mp.supplies}">&laquo;</a>
+                            </li>
+                        </s:else>
+                        <s:iterator begin="1" end="10" var="p">
+                            <s:if test="#p == mp.page">
+                                <li class="disabled">
+                                    <a href="javascript:void(0);">${p}</a>
+                                </li>
+                            </s:if>
+                            <s:if test="#p <= mp.page_num and #p != mp.page">
+                                <li class="active">
+                                    <a href="<%=basePath%>manageAction_findFillMovie.htm?mp.page=${p}&mp.name=${mp.name}&mp.director=${mp.director}&mp.actor=${mp.actor}&mp.area=${mp.area}&mp.year=${mp.year}&mp.less=${mp.less}&mp.imgUrl=${mp.imgUrl}&mp.supplies=${mp.supplies}">${p}</a>
+                                </li>
+                            </s:if>
+                        </s:iterator>
+                        <s:if test="mp.page < mp.page_num">
+                            <li class="active">
+                                <a href="<%=basePath%>manageAction_findFillMovie.htm?mp.page=${mp.page+1}&mp.name=${mp.name}&mp.director=${mp.director}&mp.actor=${mp.actor}&mp.area=${mp.area}&mp.year=${mp.year}&mp.less=${mp.less}&mp.imgUrl=${mp.imgUrl}&mp.supplies=${mp.supplies}">&raquo;</a>
+                            </li>
+                            <li class="active">
+                                <a href="<%=basePath%>manageAction_findFillMovie.htm?mp.page=${mp.page_num}&mp.name=${mp.name}&mp.director=${mp.director}&mp.actor=${mp.actor}&mp.area=${mp.area}&mp.year=${mp.year}&mp.less=${mp.less}&mp.imgUrl=${mp.imgUrl}&mp.supplies=${mp.supplies}">${mp.page_num}</a>
+                            </li>
+                        </s:if>
+                        <s:else>
+                            <li class="disabled"><a href="#">&raquo;</a></li>
+                        </s:else>
                     </ul>
                 </div>
             </div>
         </div>
     </form>
 </div>
-<form action="" method="post">
+<form action="manageAction_updateMovie.htm" method="post">
     <div id="myModal" class="modal hide fade" style="width: 650px" tabindex="-1" role="dialog"
          aria-labelledby="myModalLabel"
          aria-hidden="true">
@@ -143,43 +183,51 @@
                             <tr>
                                 <td>名称</td>
                                 <td>
-                                    <input type="text" style="width: 175px">
+                                    <input name="mb.id" type="hidden">
+                                    <input name="mb.name" type="text" style="width: 175px;height: 28px">
                                 </td>
                                 <td>导演</td>
-                                <td><input type="text" style="width: 175px"></td>
+                                <td>
+                                    <input name="mb.director" type="text" style="width: 175px;height: 28px">
+                                </td>
                             </tr>
                             <tr>
                                 <td>主演</td>
                                 <td>
-                                    <input type="text" style="width: 175px">
+                                    <input name="mb.actor" type="text" style="width: 175px;height: 28px">
                                 </td>
                                 <td>年代</td>
-                                <td><input type="text" style="width: 175px"></td>
+                                <td><input name="mb.year" type="text" style="width: 175px;height: 28px"></td>
                             </tr>
                             <tr>
                                 <td>地区</td>
                                 <td>
-                                    <input type="text" style="width: 175px">
+                                    <input name="mb.area" type="text" style="width: 175px;height: 28px">
                                 </td>
                                 <td>资源</td>
-                                <td><input type="text" style="width: 175px"></td>
+                                <td><input name="mb.supplies" type="text" style="width: 175px;height: 28px"></td>
                             </tr>
                             <tr>
                                 <td>图片</td>
                                 <td colspan="3">
-                                    <input id="inimg" type="text" style="width: 380px">
+                                    <input id="inimg" name="mb.imgUrl" type="text" style="width: 380px;height: 28px">
                                 </td>
                             </tr>
                             <tr>
                                 <td>下载</td>
                                 <td colspan="3">
-                                    <input type="text" style="width: 380px">
+                                    <input type="text" name="mb.downUrl" style="width: 380px;height: 28px">
                                 </td>
                             </tr>
                             <tr>
                                 <td>简介</td>
                                 <td colspan="3">
-                                    <textarea rows="3" style="width: 380px"></textarea>
+                                    <textarea name="mb.less" rows="3" style="width: 380px"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <p id="supplierUrl"></p>
                                 </td>
                             </tr>
                         </table>
@@ -201,6 +249,20 @@
     })
     $("table .btn").bind("click", function () {
         $('#myModal').modal('show')
+        var id = $(this).attr("data");
+        var data=$("#"+id).text();
+        var json = eval('(' + data + ')');
+        $("table input[name='mb.name']").val(json.name);
+        $("table input[name='mb.director']").val(json.director);
+        $("table input[name='mb.actor']").val(json.actor);
+        $("table input[name='mb.year']").val(json.year);
+        $("table input[name='mb.area']").val(json.area);
+        $("table input[name='mb.imgUrl']").val(json.imgUrl);
+        $("table textarea[name='mb.less']").val(json.less);
+        $("table input[name='mb.downUrl']").val(json.downUrl);
+        $("table input[name='mb.supplies']").val(json.supplies);
+        $("table input[name='mb.id']").val(json.id);
+        $("#supplierUrl").text(json.supplierUrl);
     });
 </script>
 </html>

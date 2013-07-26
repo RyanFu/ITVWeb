@@ -25,9 +25,10 @@
         </action>
         <action name="manageAction_*" class="manageAction" method="{1}">
             <interceptor-ref name="myInterceptStack"></interceptor-ref>
-            <result name="login" type="redirect">manageAction_findFillMovie.htm</result>
+            <result name="login" type="redirect">manageAction_findFillMovie.htm?mp.page_cur=0</result>
             <result name="reLogin" type="redirect">/login/login.html</result>
             <result name="manage">/WEB-INF/manage/manage.jsp</result>
+            <result name="updateMovie">manageAction_findFillMovie.htm</result>
         </action>
     </package>
 </struts>

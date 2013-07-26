@@ -91,14 +91,15 @@
     float: left;
     padding-bottom: 20px;
     width: 325px;
+    height: 170px;
 }
 .results .left-img{
     float: left;
     height: 170px;
-    width: 128px;
+    width: 125px;
 }
 .left-img img{
-    width: 128px;
+    width: 125px;
     height: 170px;
 }
 .right-content{

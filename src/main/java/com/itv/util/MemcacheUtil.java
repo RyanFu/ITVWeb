@@ -14,16 +14,18 @@ public class MemcacheUtil {
     public final static int TIMEOUT=60*60;
 
     static {
+        init();
+    }
+    public static SaeMemcache getClient() {
+        return mc;
+    }
+    public static void init(){
         try {
-            //mc = new SaeMemcache("192.168.28.128", 11211);
-           // mc.init();
+            mc = new SaeMemcache("192.168.28.128", 11211);
+            mc.init();
             log.info("memcache 初始化成功.");
         } catch (Exception e) {
             log.error("memchace 初始化失败",e);
         }
-
-    }
-    public static SaeMemcache getClient() {
-        return mc;
     }
 }

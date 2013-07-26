@@ -562,3 +562,7 @@ button.btn {
 .ent_column{
     top: 20px;
 }
+
+.down_none{
+    display: none;
+  }

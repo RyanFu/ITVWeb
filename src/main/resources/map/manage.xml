@@ -7,34 +7,75 @@
         select password from user where username= #{value} limit 0,1
     </select>
 
-    <select id="findFillMovie" parameterType="movie" resultType="movie">
-        select id,name,director,actor,area,year,imgUrl,less,supplies,suppliesCount from movie
+    <select id="findFillMovie" parameterType="moviePage" resultType="movie">
+        select id,name,director,actor,area,year,imgUrl,less,supplies,suppliesCount,downUrl,supplierUrl from movie
         <where>
-            <if test="name == 1">
+           <if test="name == 'tru'">
                 name is null
             </if>
-            <if test="director == 1">
+            <if test="name != null and name !='tru'">
+                name = #{name}
+            </if>
+            <if test="director == 'tru'">
                 or director is null
             </if>
-            <if test="actor == 1">
+            <if test="actor == 'tru'">
                 or actor is null
             </if>
-            <if test="area == 1">
+            <if test="area == 'tru'">
                 or area is null
             </if>
-            <if test="year == 1">
+            <if test="year == 'tru'">
                 or year is null
             </if>
-            <if test="less == 1">
+            <if test="less == 'tru'">
                 or less is null
             </if>
-            <if test="imgUrl == 1">
+            <if test="imgUrl == 'tru'">
                 or imgUrl is null
             </if>
-            <if test="supplies == 1">
+            <if test="supplies == 'tru'">
                 or supplies is null
             </if>
         </where>
-        order by year desc limit 0,10
+        order by year desc limit #{page_cur},10
     </select>
+
+    <select id="findFillMoviePage" parameterType="moviePage" resultType="Integer">
+        select count(id) from movie
+        <where>
+            <if test="name == 'tru'">
+                name is null
+            </if>
+            <if test="name != null and name !='tru'">
+                name = #{name}
+            </if>
+            <if test="director == 'tru'">
+                or director is null
+            </if>
+            <if test="actor == 'tru'">
+                or actor is null
+            </if>
+            <if test="area == 'tru'">
+                or area is null
+            </if>
+            <if test="year == 'tru'">
+                or year is null
+            </if>
+            <if test="less == 'tru'">
+                or less is null
+            </if>
+            <if test="imgUrl == 'tru'">
+                or imgUrl is null
+            </if>
+            <if test="supplies == 'tru'">
+                or supplies is null
+            </if>
+        </where>
+    </select>
+
+    <update id="updateMovie" parameterType="movie">
+        update movie set name=#{name},director=#{director},actor=#{actor},year=#{year},area=#{area},supplies=#{supplies},
+        imgUrl=#{imgUrl},downUrl=#{downUrl},less=#{less} where id=#{id}
+    </update>
 </mapper>

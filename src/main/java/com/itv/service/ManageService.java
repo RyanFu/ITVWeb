@@ -1,6 +1,7 @@
 package com.itv.service;
 
 import com.itv.pojo.MovieBean;
+import com.itv.pojo.MoviePage;
 
 import java.util.List;
 
@@ -24,5 +25,13 @@ public interface ManageService {
      * @return
      * @throws Exception
      */
-    public List<MovieBean> findFillMovie(MovieBean mb)throws Exception;
+    public List<MovieBean> findFillMovie(MoviePage mp)throws Exception;
+    public Integer fillMoviePage(MoviePage mp) throws Exception;
+
+    /**
+     * 修补残缺视频信息
+     * @param mb
+     * @throws Exception
+     */
+    public void updateMovie(MovieBean mb)throws  Exception;
 }

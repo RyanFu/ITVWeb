@@ -15,6 +15,7 @@
     <meta name="keywords" content="itv9,itv9视频,itv9影视,大片,最新电影,最新大片,免费电影,高清电影,更新最快的电影,在线视频,在线电影,伦理片,在线高清电影">
     <meta name="description" content="itv9--最新、最全的视频网站-在线观看">
     <title>搜索结果--itv9电影频道</title>
+    <link rel="shortcut icon" href="<%=basePath%>bootstrap/img/itv9.ico" />
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/public.css" rel="stylesheet">
     <link href="bootstrap/css/index.css" rel="stylesheet">

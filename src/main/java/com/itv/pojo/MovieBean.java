@@ -12,6 +12,7 @@ import java.util.List;
 public class MovieBean implements Serializable {
 	private String id;// 主键id
 	private String name;// 影视名称
+    private String typeName;//电影类型 喜剧
 	private String director;// 导演
 	private String actor;// 主演
 	private String area;// 地区
@@ -169,6 +170,14 @@ public class MovieBean implements Serializable {
 
     public void setDownUrl(String downUrl) {
         this.downUrl = downUrl;
+    }
+
+    public String getTypeName() {
+        return typeName;
+    }
+
+    public void setTypeName(String typeName) {
+        this.typeName = typeName;
     }
 
     public String toString() {

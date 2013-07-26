@@ -52,8 +52,8 @@ public class SearchAction {
                         }
                     }
                 } else {
-                    int j = mp.getPage() / 10;
-                    for (int i = j * 10 + 1; i < j * 10 + 11; i++) {
+                    int j = mp.getPage();
+                    for (int i = j-5; i < j + 5; i++) {
                         if (i <= mp.getPage_num()) {
                             pageList.add(i);
                         }

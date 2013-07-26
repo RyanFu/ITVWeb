@@ -41,6 +41,9 @@
             <if test="area != null and area !=''">
                 area like "%"#{area}"%"
             </if>
+            <if test="typeName != null and typeName !=''">
+                and typeName like "%"#{typeName}"%"
+            </if>
             <if test="year != null and year !=''">
                 and year like #{year}"%"
             </if>
@@ -57,6 +60,9 @@
         <where>
             <if test="area != null and area !=''">
                 area like "%"#{area}"%"
+            </if>
+            <if test="typeName != null and typeName !=''">
+                and typeName like "%"#{typeName}"%"
             </if>
             <if test="year != null and year !=''">
                 and year like #{year}"%"

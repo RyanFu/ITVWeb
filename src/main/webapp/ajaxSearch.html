@@ -40,4 +40,16 @@
     $(".seach-ts").bind("mouseout",function(){
         isClose=true;
     });
+    function checkSeach() {
+        var svalue = $("#search-text").val();
+        var regs = /^\s*$/;
+        try {
+            if (regs.test(svalue)) {
+                return false;
+            }
+        } catch (e) {
+            return false;
+        }
+        return true;
+    }
 </script>

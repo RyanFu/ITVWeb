@@ -1,6 +1,7 @@
 package com.itv.action;
 
 import com.itv.pojo.MovieBean;
+import com.itv.pojo.MoviePage;
 import com.itv.service.ManageService;
 import com.itv.util.CheckUtil;
 import com.itv.util.Crypt;
@@ -21,6 +22,7 @@ public class ManageAction {
     private String pwd;
     private ManageService manageService;
     private MovieBean mb;
+    private MoviePage mp;
     private List<MovieBean> list;
 
     /**
@@ -52,11 +54,26 @@ public class ManageAction {
      */
     public String findFillMovie(){
         try {
-            this.list=this.manageService.findFillMovie(this.mb);
+            if (this.mp == null) {
+                this.mp=new MoviePage();
+            }
+            this.mp.setPage_size(10);
+            if(this.name!=null&&!"".equals(name.trim())){
+                this.mp.setName(this.name);
+            }
+            int count=this.manageService.fillMoviePage(this.mp);
+            if (count > 0) {
+                this.mp.setPage_num(count / 10 + (count % 10 == 0 ? 0 : 1));
+            }
+            this.list=this.manageService.findFillMovie(this.mp);
         } catch (Exception e) {
             log.error("",e);
         }
         return "manage";
+    }
+    public String updateMovie() throws Exception {
+        this.manageService.updateMovie(this.mb);
+        return "updateMovie";
     }
     public void setName(String name) {
         this.name = name;
@@ -74,6 +91,10 @@ public class ManageAction {
         this.mb = mb;
     }
 
+    public MovieBean getMb() {
+        return mb;
+    }
+
     public void setList(List<MovieBean> list) {
         this.list = list;
     }
@@ -81,4 +102,13 @@ public class ManageAction {
     public List<MovieBean> getList() {
         return list;
     }
+
+    public MoviePage getMp() {
+        return mp;
+    }
+
+    public void setMp(MoviePage mp) {
+        this.mp = mp;
+    }
+
 }
