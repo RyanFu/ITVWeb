@@ -34,4 +34,12 @@ public interface ManageService {
      * @throws Exception
      */
     public void updateMovie(MovieBean mb)throws  Exception;
+
+    /**
+     * 根据插件提交过来的地址进行修改视频信息
+     * @param url
+     * @return
+     * @throws Exception
+     */
+    public boolean pluginAdd(String url) throws Exception;
 }

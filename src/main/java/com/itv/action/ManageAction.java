@@ -5,9 +5,13 @@ import com.itv.pojo.MoviePage;
 import com.itv.service.ManageService;
 import com.itv.util.CheckUtil;
 import com.itv.util.Crypt;
+import com.itv.util.httpclient.PageStream;
 import org.apache.log4j.Logger;
 import org.apache.struts2.ServletActionContext;
 import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Date;
 import java.util.List;
 
@@ -23,6 +27,7 @@ public class ManageAction {
     private ManageService manageService;
     private MovieBean mb;
     private MoviePage mp;
+    private String url;
     private List<MovieBean> list;
 
     /**
@@ -71,6 +76,29 @@ public class ManageAction {
         }
         return "manage";
     }
+
+    /**
+     * 插件发过来的添加
+     */
+    public void pluginAdd(){
+        HttpServletResponse res= ServletActionContext.getResponse();
+        boolean isadd=false;
+        try {
+            log.info("url: "+this.url);
+            isadd = manageService.pluginAdd(this.url);
+        } catch (Exception e) {
+            log.error("",e);
+        }
+        res.setContentType("text/hthl;charset=utf-8");
+        PrintWriter pw= null;
+        try {
+            pw = res.getWriter();
+        } catch (IOException e) {
+            log.error("",e);
+        }
+        pw.write(Boolean.toString(isadd));
+        pw.close();
+    }
     public String updateMovie() throws Exception {
         this.manageService.updateMovie(this.mb);
         return "updateMovie";
@@ -111,4 +139,11 @@ public class ManageAction {
         this.mp = mp;
     }
 
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
 }

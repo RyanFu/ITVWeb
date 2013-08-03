@@ -52,6 +52,8 @@ public class Supplie implements Serializable {
             cname="go_fengxing";
         }else if(className.indexOf("PPTV")>=0||className.indexOf("pptv")>=0){
             cname="go_pptv";
+        }else if(className.indexOf("搜狐")>=0){
+            cname="go_sohu";
         }else{
             cname="go_youku";
         }

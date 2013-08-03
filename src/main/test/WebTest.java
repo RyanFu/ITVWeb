@@ -3,6 +3,7 @@ import com.itv.action.ManageAction;
 import com.itv.dao.IBaseDao;
 import com.itv.pojo.MovieBean;
 import com.itv.pojo.MovieFocusMap;
+import com.itv.service.ManageService;
 import com.itv.service.PlayService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -29,6 +30,8 @@ public class WebTest {
     PlayService playService;
     @Resource
     ManageAction manageAction;
+    @Resource
+    private ManageService manageService;
     @Test
     public void tdao() {
         try {
@@ -42,10 +45,7 @@ public class WebTest {
     @Test
     public void taction() {
         try {
-            MovieBean mb=new MovieBean();
-            mb.setName("1");
-            manageAction.setMb(mb);
-            manageAction.findFillMovie();
+            manageService.pluginAdd("http://v.youku.com/v_show/id_XNTgxMzQzOTIw.html");
         } catch (Exception e) {
             e.printStackTrace();
         }

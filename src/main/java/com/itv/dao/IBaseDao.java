@@ -36,4 +36,5 @@ public interface IBaseDao<T> {
      * @throws Exception
      */
     public boolean update(String sqlName,Object obj) throws Exception;
+    public boolean insert(String sqlName,Object obj) throws Exception;
 }

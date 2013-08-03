@@ -45,4 +45,15 @@ public class BaseDaoImpl<T> extends SqlSessionDaoSupport implements IBaseDao {
     public boolean update(String sqlName,Object obj) throws Exception {
         return getSqlSession().update(sqlName,obj)>0?true:false;
     }
+
+    /**
+     * 添加
+     * @param sqlName sql语句名称
+     * @param obj 被添加对象
+     * @return
+     * @throws Exception
+     */
+    public boolean insert(String sqlName,Object obj) throws Exception {
+        return getSqlSession().insert(sqlName,obj)>0?true:false;
+    }
 }

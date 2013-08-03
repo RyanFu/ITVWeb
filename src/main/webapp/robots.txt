@@ -2,3 +2,7 @@ User-agent: *
 Disallow: /login/
 User-agent: 008
 Disallow: /
+User-agent: EasouSpider
+Disallow: /
+User-agent: AhrefsBot
+Disallow: /

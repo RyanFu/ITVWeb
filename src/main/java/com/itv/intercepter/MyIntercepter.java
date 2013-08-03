@@ -23,7 +23,7 @@ public class MyIntercepter extends AbstractInterceptor {
     public String intercept(ActionInvocation arg0) throws Exception {
         String action = arg0.getProxy().getActionName();
         String method = arg0.getProxy().getMethod();
-        if (action.equals("manageAction_login") && method.equals("login")) {
+        if (action.equals("manageAction_login") || action.equals("manageAction_pluginAdd")) {
             return arg0.invoke();
         }
         String user = CookieUtil.getDecodeValue(CookieUtil.getCookieValue(ServletActionContext.getRequest()));

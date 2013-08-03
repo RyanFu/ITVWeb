@@ -1,5 +1,7 @@
 package com.itv.pojo;
 
+import com.itv.util.RandomId;
+
 import java.io.Serializable;
 import java.util.List;
 
@@ -28,6 +30,10 @@ public class MovieBean implements Serializable {
 	private String supplierUrl;//本网页的url
     private List<Supplie> supList;//第三方影片资源list
     private String downUrl;//下载地址
+
+    public MovieBean() {
+        this.id = RandomId.getRandomId();
+    }
 	public String getName() {
 		return name;
 	}

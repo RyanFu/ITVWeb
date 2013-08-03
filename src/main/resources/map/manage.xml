@@ -78,4 +78,35 @@
         update movie set name=#{name},director=#{director},actor=#{actor},year=#{year},area=#{area},supplies=#{supplies},
         imgUrl=#{imgUrl},downUrl=#{downUrl},less=#{less} where id=#{id}
     </update>
+
+    <select id="pluginSelect" parameterType="movie" resultType="movie">
+        select suppliesCount,supplies,supplierUrl,imgUrl from movie where name = #{name} or supplierUrl=#{supplierUrl}
+    </select>
+    <update id="pluginUpdate" parameterType="movie">
+        update movie set name=#{name},director=#{director},actor=#{actor},year=#{year},area=#{area}
+        ,less=#{less}
+        <if test="imgUrl != null and imgUrl != ''">
+            ,imgUrl=#{imgUrl}
+        </if>
+        <if test="value !=null and value != ''">
+            ,value=#{value}
+        </if>
+        <if test="ratingCount != null and ratingCount != ''">
+            ,ratingCount=#{ratingCount}
+        </if>
+            ,duration=#{duration}
+        <if test="supplies != null and supplies != ''">
+            ,supplies=#{supplies}
+        </if>
+        <if test="typeName != null and typeName != ''">
+            ,typeName=#{typeName}
+        </if>
+        ,suppliesCount=#{suppliesCount},supplierUrl=#{supplierUrl}
+        where name = #{name} or supplierUrl=#{supplierUrl}
+    </update>
+    <insert id="pluginInsert" parameterType="movie" >
+        insert into movie values
+            (#{id},#{name},#{typeName},#{director},#{actor},#{area},#{supplierUrl},#{year},#{duration},#{value},#{less},
+            #{ratingCount},#{suppliesCount},#{supplies},#{imgUrl},#{language},#{downUrl})
+    </insert>
 </mapper>
